@@ -1,6 +1,6 @@
 // app/links/page.tsx
-import Image from "next/image";
 import type { ReactNode } from "react";
+import Image from "next/image";
 
 type Social = {
   label: "Instagram" | "YouTube" | "LinkedIn" | "Mail";
@@ -75,25 +75,20 @@ export default function LinksPage() {
           <div className="rz-linksQuote">{PROFILE.quote}</div>
 
           <div className="rz-linksRow" aria-label="Social links">
-            {SOCIALS.map((s) => {
-              const isMail = s.href.startsWith("mailto:");
-              return (
-                <a
-                  key={s.label}
-                  className="rz-socialBtn"
-                  href={s.href}
-                  aria-label={s.label}
-                  target={isMail ? undefined : "_blank"}
-                  rel={isMail ? undefined : "noreferrer"}
-                >
-                  {s.icon}
-                </a>
-              );
-            })}
+            {SOCIALS.map((s) => (
+              <a
+                key={s.label}
+                className="rz-socialBtn"
+                href={s.href}
+                aria-label={s.label}
+                target={s.href.startsWith("mailto:") ? undefined : "_blank"}
+                rel={s.href.startsWith("mailto:") ? undefined : "noreferrer"}
+              >
+                {s.icon}
+              </a>
+            ))}
           </div>
         </div>
-
-        {/* aktuell kein Featured/CTA – bleibt leer */}
       </section>
     </main>
   );

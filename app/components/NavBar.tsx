@@ -14,23 +14,17 @@ export default function NavBar() {
       </Link>
 
       <nav className="navLinks" aria-label="Primary">
-        <Link
-          href="/about"
-          aria-current={pathname === "/about" ? "page" : undefined}
-        >
+        <Link href="/about" aria-current={pathname === "/about" ? "page" : undefined}>
           Story
         </Link>
 
-        <Link
-          href="/links"
-          aria-current={pathname === "/links" ? "page" : undefined}
-        >
+        <Link href="/links" aria-current={pathname === "/links" ? "page" : undefined}>
           Links
         </Link>
 
-        {/* Theme Toggle (ein Icon, Farbe über currentColor) */}
         <ThemeToggle />
       </nav>
     </header>
   );
 }
+
