@@ -189,13 +189,29 @@
     justify-content: center;
   }
   
-  .themeToggle:hover { color: var(--linkHover); }
+  .themeToggle:hover {
+    color: var(--linkHover);
+  }
   
-  .sunIcon {
-    font-size: 12px;
-    line-height: 1;
+  /* ✅ SVG aus /public als Maske -> färbt über currentColor */
+  .themeIcon {
+    width: 16px;
+    height: 16px;
     display: block;
-    color: currentColor; /* <-- macht schwarz/weiß automatisch */
+  
+    background-color: currentColor;
+  
+    -webkit-mask-image: url("/icons8-nachtmodus.svg");
+    mask-image: url("/icons8-nachtmodus.svg");
+  
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+  
+    -webkit-mask-position: center;
+    mask-position: center;
+  
+    -webkit-mask-size: contain;
+    mask-size: contain;
   }
   
   /* =========================
@@ -203,7 +219,7 @@
      ========================= */
   
   .timelineList {
-    margin-top: 34px;
+    margin-top: 7px;
     width: var(--timeline-width); /* der negative space rechts */
   }
   
