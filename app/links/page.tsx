@@ -4,7 +4,7 @@ import Image from "next/image";
 type Social = {
   label: "Instagram" | "YouTube" | "LinkedIn" | "Mail";
   href: string;
-  icon: JSX.Element;
+  icon: React.ReactNode;
 };
 
 const PROFILE = {
