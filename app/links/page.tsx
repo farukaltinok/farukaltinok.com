@@ -1,5 +1,7 @@
 // app/links/page.tsx
+import React from "react";
 import Image from "next/image";
+
 
 type Social = {
   label: "Instagram" | "YouTube" | "LinkedIn" | "Mail";
@@ -56,7 +58,7 @@ const SOCIALS: Social[] = [
 export default function LinksPage() {
   return (
     <main className="rz-linksPage">
-      <section className="rz-linksInner" aria-label="Linktree">
+      <section className="rz-linksInner" aria-label="Links">
         <div className="rz-linksTop">
           <div className="rz-linksAvatar">
             <Image src={PROFILE.avatarSrc} alt={PROFILE.name} width={140} height={140} priority />
