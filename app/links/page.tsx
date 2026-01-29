@@ -1,14 +1,12 @@
 // app/links/page.tsx
-import React from "react";
-import type { ReactNode } from "react";
 import Image from "next/image";
-
+import type { ReactNode } from "react";
 
 type Social = {
-    label: "Instagram" | "YouTube" | "LinkedIn" | "Mail";
-    href: string;
-    icon: ReactNode;
-  };
+  label: "Instagram" | "YouTube" | "LinkedIn" | "Mail";
+  href: string;
+  icon: ReactNode;
+};
 
 const PROFILE = {
   name: "Faruk Altinok",
@@ -62,7 +60,13 @@ export default function LinksPage() {
       <section className="rz-linksInner" aria-label="Links">
         <div className="rz-linksTop">
           <div className="rz-linksAvatar">
-            <Image src={PROFILE.avatarSrc} alt={PROFILE.name} width={140} height={140} priority />
+            <Image
+              src={PROFILE.avatarSrc}
+              alt={PROFILE.name}
+              width={140}
+              height={140}
+              priority
+            />
           </div>
 
           <div className="rz-linksName">{PROFILE.name}</div>
@@ -71,23 +75,25 @@ export default function LinksPage() {
           <div className="rz-linksQuote">{PROFILE.quote}</div>
 
           <div className="rz-linksRow" aria-label="Social links">
-            {SOCIALS.map((s) => (
-              <a
-                key={s.label}
-                className="rz-socialBtn"
-                href={s.href}
-                aria-label={s.label}
-                target={s.href.startsWith("mailto:") ? undefined : "_blank"}
-                rel={s.href.startsWith("mailto:") ? undefined : "noreferrer"}
-              >
-                {s.icon}
-              </a>
-            ))}
+            {SOCIALS.map((s) => {
+              const isMail = s.href.startsWith("mailto:");
+              return (
+                <a
+                  key={s.label}
+                  className="rz-socialBtn"
+                  href={s.href}
+                  aria-label={s.label}
+                  target={isMail ? undefined : "_blank"}
+                  rel={isMail ? undefined : "noreferrer"}
+                >
+                  {s.icon}
+                </a>
+              );
+            })}
           </div>
         </div>
 
-        {/* Static card (no button/link) */}
-       
+        {/* aktuell kein Featured/CTA – bleibt leer */}
       </section>
     </main>
   );
