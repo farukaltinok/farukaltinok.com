@@ -1,13 +1,14 @@
 // app/links/page.tsx
 import React from "react";
+import type { ReactNode } from "react";
 import Image from "next/image";
 
 
 type Social = {
-  label: "Instagram" | "YouTube" | "LinkedIn" | "Mail";
-  href: string;
-  icon: React.ReactNode;
-};
+    label: "Instagram" | "YouTube" | "LinkedIn" | "Mail";
+    href: string;
+    icon: ReactNode;
+  };
 
 const PROFILE = {
   name: "Faruk Altinok",
