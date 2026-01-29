@@ -58,14 +58,7 @@ export default function Footer() {
               IG
             </a>
 
-            <a
-              href="mailto:kontakt@farukaltinok.com"
-              className="rz-footerIcon"
-              aria-label="Mail"
-              title="Mail"
-            >
-              <MailIcon />
-            </a>
+ 
           </div>
 
           <div className="rz-footerMeta">{stamp}</div>

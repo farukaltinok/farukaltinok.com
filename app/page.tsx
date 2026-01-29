@@ -12,13 +12,13 @@ export default function Home() {
           Ich bin 23 y/o türkisch-deutscher Creator, geboren in Köln.
           </p>
           <p className="homeText">
-          Kumuliert habe ich über 2 Millionen Follower aufgebaut.
+          Kumuliert über 2 Mio Follower aufgebaut.
           </p>
           <p className="homeText">
           Aktuell evaluiere ich, woran ich 2026 bauen möchte.
           </p>
           <p className="homeText">
-          Mein Ziel ist es, meine Mutter in drei Jahren in Rente zu schicken.
+          Mein Ziel ist es, meiner Mutter in drei Jahren die Rente zu ermöglichen.
           </p>
           <p className="homeText">
           Meine Mission ist es, die Welt zu verstehen und zu verbessern.

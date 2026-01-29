@@ -6,6 +6,7 @@ const timeline = [
   { date: "12.05.24", text: "Mit YouTube gestartet" },
   { date: "14.07.22", text: "1 Mio Follower geknackt" },
   { date: "13.12.19", text: "Mit TikTok gestartet" },
+  { date: "12.07.19", text: "1,0er Durchschnitt erreicht" },
   { date: "12.08.15", text: "Side Quests pausiert & auf Schule fokussiert" },
   { date: "18.07.15", text: "Wollte Biotech Company starten" },
   { date: "11.08.14", text: "Eigenes Jump & Run Game programmiert" },
