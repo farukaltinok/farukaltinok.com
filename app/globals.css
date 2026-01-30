@@ -73,7 +73,7 @@
   .wrap {
     max-width: var(--page-max);
     margin: 0 auto;
-    padding: 0px var(--page-pad);
+    padding: 56px var(--page-pad);
   }
   
   /* "wide" pages dürfen gleich bleiben – aber gleiche padding */
