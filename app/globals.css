@@ -446,7 +446,7 @@
     margin: 0 0 26px 0;
   }
   
-  /* Optional: mehr Luft zwischen Blöcken */
+  /* Optional: mehr Luft zwischen Blöcken 34px eig */
   .impressumBlock {
     margin-bottom: 34px;
   }
@@ -492,7 +492,7 @@
 
 /* ===== Page Header (global) ===== */
 .pageHeader {
-  margin-bottom: 34px; /* exakt wie timeline start */
+  margin-bottom: 0px; /* exakt wie timeline start 34px eig */
 }
 
 .pageHeader h1 {
