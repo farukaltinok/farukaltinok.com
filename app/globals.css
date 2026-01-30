@@ -310,7 +310,7 @@
   .rz-footer{
     position: static; /* oder einfach löschen */
     margin-top: 32px; /* kleiner Abstand zum Content */
-    padding: 18px 0 26px;
+    padding: 18px 0 0px;
     color: var(--muted);
     font-size: 9px;
     letter-spacing: 0.2px;
