@@ -73,7 +73,7 @@
   .wrap {
     max-width: var(--page-max);
     margin: 0 auto;
-    padding: 56px var(--page-pad);
+    padding: 0px var(--page-pad);
   }
   
   /* "wide" pages dürfen gleich bleiben – aber gleiche padding */
@@ -448,7 +448,7 @@
   
   /* Optional: mehr Luft zwischen Blöcken 34px eig */
   .impressumBlock {
-    margin-bottom: 0px;
+    margin-bottom: 34px;
   }
   
 
@@ -492,7 +492,7 @@
 
 /* ===== Page Header (global) ===== */
 .pageHeader {
-  margin-bottom: 34px; /* exakt wie timeline start 34px eig */
+  margin-bottom: 34px; /* exakt wie timeline start */
 }
 
 .pageHeader h1 {
