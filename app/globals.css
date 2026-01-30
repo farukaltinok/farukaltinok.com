@@ -309,8 +309,8 @@
 
   .rz-footer{
     position: static; /* oder einfach löschen */
-    margin-top: 32px; /* kleiner Abstand zum Content */
-    padding: 18px 0 0px;
+    margin-top: 0px; /* kleiner Abstand zum Content */
+    padding: 18px 0 26px;
     color: var(--muted);
     font-size: 9px;
     letter-spacing: 0.2px;
@@ -435,7 +435,7 @@
     font-size: 11.5px;
     line-height: 1.45;
     font-weight: 500;
-    margin: 0 0 0px 0;
+    margin: 0 0 10px 0;
   }
   
   /* Body text – exakt wie timelineText */
