@@ -22,7 +22,7 @@ export default function About() {
         <div className="timelineRow">
           <TypewriterGoals
             goals={[
-              "Mama in 3 Jahren die Rente ermöglichen",
+              "Mama in 3 Jahren retiren",
               "Road to 100K€ im Monat",
               "Reise in die Arktis planen (2026)",
             ]}
