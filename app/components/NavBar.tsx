@@ -15,11 +15,11 @@ export default function NavBar() {
 
       <nav className="navLinks" aria-label="Primary">
         <Link href="/about" aria-current={pathname === "/about" ? "page" : undefined}>
-          Story
+          About
         </Link>
 
-        <Link href="/links" aria-current={pathname === "/links" ? "page" : undefined}>
-          Links
+        <Link href="/essays" aria-current={pathname.startsWith("/essays") ? "page" : undefined}>
+          Essays
         </Link>
 
         <ThemeToggle />
@@ -27,4 +27,3 @@ export default function NavBar() {
     </header>
   );
 }
-

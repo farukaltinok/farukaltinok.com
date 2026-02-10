@@ -736,3 +736,174 @@
   border-color: rgba(255,255,255,0.28);
   color: rgba(255,255,255,0.92);
 }
+
+/* =========================
+   ESSAYS – Übersicht
+   ========================= */
+
+   .essaysList {
+    margin-top: 7px;
+    width: var(--timeline-width);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .essayCard {
+    display: block;
+    padding: 22px 0;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+  }
+  
+  .essayCard + .essayCard {
+    border-top: 1px solid var(--border);
+  }
+  
+  .essayCard:hover {
+    opacity: 0.65;
+  }
+  
+  /* Coming-soon cards */
+  .essayCard--soon {
+    cursor: default;
+    opacity: 0.6;
+  }
+  
+  .essayCard--soon:hover {
+    opacity: 0.6;
+  }
+  
+  /* Title + badge on one line */
+  .essayTitleRow {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  
+  .essayTitle {
+    margin: 0;
+    color: var(--text);
+    font-family: var(--font-rz-serif), ui-serif, Georgia, serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.3;
+    letter-spacing: -0.1px;
+  }
+  
+  .essaySoon {
+    color: var(--muted2);
+    font-family: inherit;
+    font-style: normal;
+    font-size: 9px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  
+  .essayDesc {
+    margin: 5px 0 0 0;
+    color: var(--muted2);
+    font-size: 11.5px;
+    line-height: 1.45;
+    letter-spacing: 0.2px;
+    max-width: 480px;
+  
+    /* Force single line */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* =========================
+     ESSAY – Einzelansicht
+     ========================= */
+  
+  .essayArticle {
+    margin-top: 7px;
+    width: var(--timeline-width);
+  }
+  
+  .essayBack {
+    display: inline-block;
+    color: var(--muted2);
+    font-size: 11.5px;
+    letter-spacing: 0.2px;
+    margin-bottom: 28px;
+    transition: color 0.2s ease;
+  }
+  
+  .essayBack:hover {
+    color: var(--text);
+  }
+  
+  .essayHeader {
+    margin-bottom: 48px;
+  }
+  
+  .essayArticleTitle {
+    margin: 0;
+    color: var(--text);
+    font-family: var(--font-rz-serif), ui-serif, Georgia, serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.25;
+    letter-spacing: -0.2px;
+  }
+  
+  /* Sections: big gap ABOVE each section (space from previous content) */
+  .essaySection {
+    margin-top: 44px;
+  }
+  
+  .essaySection:first-child {
+    margin-top: 0;
+  }
+  
+  /* Roman numeral labels – smaller, thinner, grayer, italic
+     TIGHT to the paragraph below (small margin-bottom) */
+  .essaySectionLabel {
+    color: var(--muted2);
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 0 6px 0;
+    opacity: 0.7;
+  }
+  
+  /* Body paragraphs */
+  .essayContent p {
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.75;
+    letter-spacing: 0.1px;
+    margin: 0 0 18px 0;
+  }
+  
+  .essaySection p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* =========================
+     ESSAYS – Mobile
+     ========================= */
+  
+  @media (max-width: 800px) {
+    .essayCard {
+      padding: 18px 0;
+    }
+  
+    .essayTitle {
+      font-size: 18px;
+    }
+  
+    .essayArticleTitle {
+      font-size: 22px;
+    }
+  
+    .essaySection {
+      margin-top: 32px;
+    }
+  }
