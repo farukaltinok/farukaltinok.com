@@ -21,7 +21,7 @@ export type Essay = {
       title: "Der Geschmack des Todes",
       description:
         "Über den Tod meines Vaters und ein Versprechen an meine Mutter.",
-      date: "04.02.26",
+      date: "10.02.26",
       comingSoon: false,
       content: `i.
   Jeder von uns wird den Tod schmecken.
@@ -94,6 +94,8 @@ export type Essay = {
   Deshalb gebe ich jetzt Vollgas. Ich will Dinge aufbauen, die Menschen helfen. Eine Person werden, die das Leben anderer besser macht.
 
   Und es fängt bei meiner Mutter an. Sie soll sich um nichts mehr sorgen müssen. In spätestens drei Jahren will ich sie retiren. Dass sie durchatmen kann. Dass sie wieder leben kann, ohne ständig überleben zu müssen.
+
+  Das ist kein Ziel. Das ist ein Versprechen.
 
   Heute ist vieles, was jahrelang verschwommen war, plötzlich scharf. Ich spüre wieder Klarheit.
 
