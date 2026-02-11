@@ -89,11 +89,11 @@ export type Essay = {
 
   Und wenn ich das so schreibe, klingt es fast zu klein. Sie hat sich nicht „ein bisschen" überstrapaziert. Sie hat sich um alles gekümmert. Termine, Organisation, Haushalt, Pflege, Gespräche, Stress, Sorgen. Alles. Und trotzdem war sie da. Als Mutter. Als Ehefrau. Als Mensch.
 
-  Bei der Beerdigung meines Vaters kamen viele Menschen. Räume haben sich gefüllt an Leuten, die um ihn weinen. Und in dem Moment habe ich verstanden: Das ist, was bleibt. Nicht Geld. Nicht Follower. Sondern wie viele Leben du berührt hast.
+  Die offizielle Beerdigung ist erst morgen. Aber schon heute haben sich unsere Räume gefüllt mit Menschen, die um ihn weinen. Die einfach kamen, als wir es bekannt gegeben haben. Und in dem Moment habe ich verstanden: Das ist, was bleibt. Nicht Geld. Nicht Follower. Sondern wie viele Leben du berührt hast.
 
   Deshalb gebe ich jetzt Vollgas. Ich will Dinge aufbauen, die Menschen helfen. Eine Person werden, die das Leben anderer besser macht.
 
-  Und es fängt bei meiner Mutter an. Sie soll sich um nichts mehr sorgen müssen. In spätestens drei Jahren will ich sie retiren. Dass sie durchatmen kann. Dass sie wieder leben kann, ohne ständig überleben zu müssen.
+  Und es fängt bei meiner Mutter an. Sie soll sich um nichts mehr sorgen müssen. Dass sie durchatmen kann. Dass sie wieder leben kann, ohne ständig überleben zu müssen.
 
   Das ist kein Ziel. Das ist ein Versprechen.
 
