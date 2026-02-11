@@ -4,6 +4,7 @@ import "./globals.css";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import { Cormorant_Garamond } from "next/font/google";
+import { LanguageProvider } from "./components/LanguageContext";
 
 const rzSerif = Cormorant_Garamond({
   subsets: ["latin"],
@@ -31,16 +32,15 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="de">
       <body className={`${rzSerif.variable} ${geistSans.variable} ${geistMono.variable}`}>
-        {/* Container bleibt für Header+Content */}
-        <div className="wrap wide rz-container">
-          <NavBar />
-          {children}
-        </div>
-
-        {/* Footer MUSS außerhalb vom Container sein */}
-        <Footer />
+        <LanguageProvider>
+          <div className="wrap wide rz-container">
+            <NavBar />
+            {children}
+          </div>
+          <Footer />
+        </LanguageProvider>
       </body>
     </html>
   );

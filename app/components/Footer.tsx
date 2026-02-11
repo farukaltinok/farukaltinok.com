@@ -2,8 +2,9 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
+import { useLang } from "./LanguageContext";
 
-function formatStampCologne(d: Date) {
+function formatStamp(d: Date, city: string) {
   const parts = new Intl.DateTimeFormat("de-DE", {
     timeZone: "Europe/Berlin",
     day: "2-digit",
@@ -15,30 +16,30 @@ function formatStampCologne(d: Date) {
   }).formatToParts(d);
 
   const get = (t: string) => parts.find((p) => p.type === t)?.value ?? "";
-  return `Köln, ${get("day")}.${get("month")}.${get("year")}, ${get("hour")}:${get(
+  return `${city}, ${get("day")}.${get("month")}.${get("year")}, ${get("hour")}:${get(
     "minute"
   )}:${get("second")}`;
 }
 
 export default function Footer() {
   const [now, setNow] = useState<Date>(() => new Date());
+  const { lang, t } = useLang();
 
   useEffect(() => {
     const id = setInterval(() => setNow(new Date()), 1000);
     return () => clearInterval(id);
   }, []);
 
-  const stamp = useMemo(() => formatStampCologne(now), [now]);
+  const city = lang === "de" ? "Köln" : "Cologne";
+  const stamp = useMemo(() => formatStamp(now, city), [now, city]);
 
   return (
     <footer className="rz-footer" aria-label="Footer">
       <div className="rz-footerInner">
-        {/* LEFT (like header logo slot) */}
         <Link href="/impressum" className="rz-footerLeftLink">
-          Impressum
+          {t("footer.impressum")}
         </Link>
 
-        {/* RIGHT (like header nav slot) */}
         <div className="rz-footerRight">
           <div className="rz-footerLinks">
             <a
@@ -57,24 +58,11 @@ export default function Footer() {
             >
               IG
             </a>
-
- 
           </div>
 
           <div className="rz-footerMeta">{stamp}</div>
         </div>
       </div>
     </footer>
-  );
-}
-
-function MailIcon() {
-  return (
-    <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">
-      <path
-        fill="currentColor"
-        d="M4 6h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2Zm0 2v.2l8 5.2l8-5.2V8H4Zm16 2.3l-7.45 4.85a1 1 0 0 1-1.1 0L4 10.3V18h16v-7.7Z"
-      />
-    </svg>
   );
 }

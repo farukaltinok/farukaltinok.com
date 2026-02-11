@@ -1,30 +1,35 @@
-import TypewriterGoals from "../components/TypewriterGoals";
+"use client";
 
-const timeline = [
-  { date: "16.10.25", text: "Unter Shaolin Mönchen in China gelebt" },
-  { date: "08.10.24", text: "Palutens Nummer geklärt (mein größter Flex)" },
-  { date: "12.05.24", text: "Mit YouTube gestartet" },
-  { date: "14.07.22", text: "1 Mio Follower geknackt" },
-  { date: "13.12.19", text: "Mit TikTok gestartet" },
-  { date: "12.07.19", text: "1,0er Durchschnitt erreicht" },
-  { date: "12.08.15", text: "Side Quests pausiert & auf Schule fokussiert" },
-  { date: "18.07.15", text: "Wollte Biotech Company starten" },
-  { date: "11.08.14", text: "Eigenes Jump & Run Game programmiert" },
-  { date: "28.12.13", text: "Versucht ein Magnetmotor zu bauen" },
-  { date: "04.04.07", text: "Mutismus Diagnose bekommen" },
-  { date: "14.11.02", text: "Geboren in Köln, um 18:32 Uhr" },
-];
+import TypewriterGoals from "../components/TypewriterGoals";
+import { useLang } from "../components/LanguageContext";
 
 export default function About() {
+  const { t } = useLang();
+
+  const timeline = [
+    { date: "16.10.25", key: "about.t1" },
+    { date: "08.10.24", key: "about.t2" },
+    { date: "12.05.24", key: "about.t3" },
+    { date: "14.07.22", key: "about.t4" },
+    { date: "13.12.19", key: "about.t5" },
+    { date: "12.07.19", key: "about.t6" },
+    { date: "12.08.15", key: "about.t7" },
+    { date: "18.07.15", key: "about.t8" },
+    { date: "11.08.14", key: "about.t9" },
+    { date: "28.12.13", key: "about.t10" },
+    { date: "04.04.07", key: "about.t11" },
+    { date: "14.11.02", key: "about.t12" },
+  ];
+
   return (
     <main className="wrap wide">
       <section className="timelineList">
         <div className="timelineRow">
           <TypewriterGoals
             goals={[
-              "Mama in 3 Jahren retiren",
-              "Road to 100K€ im Monat",
-              "Reise in die Arktis planen (2026)",
+              t("about.goal1"),
+              t("about.goal2"),
+              t("about.goal3"),
             ]}
           />
         </div>
@@ -32,7 +37,7 @@ export default function About() {
         {timeline.map((item) => (
           <div key={item.date} className="timelineRow">
             <span className="timelineDate">{item.date}</span>
-            <span className="timelineText">{item.text}</span>
+            <span className="timelineText">{t(item.key)}</span>
           </div>
         ))}
       </section>

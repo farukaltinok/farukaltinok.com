@@ -1,7 +1,12 @@
+"use client";
+
 import Link from "next/link";
 import essays from "./essays";
+import { useLang } from "../components/LanguageContext";
 
 export default function EssaysPage() {
+  const { lang, t } = useLang();
+
   return (
     <main className="wrap wide">
       <section className="essaysList">
@@ -9,8 +14,8 @@ export default function EssaysPage() {
           if (essay.comingSoon) {
             return (
               <div key={essay.slug} className="essayCard essayCard--soon">
-                <h2 className="essayTitle">{essay.title}</h2>
-                <p className="essayDesc">Kommt bald.</p>
+                <h2 className="essayTitle">{essay.title[lang]}</h2>
+                <p className="essayDesc">{t("essays.comingSoon")}</p>
               </div>
             );
           }
@@ -21,8 +26,8 @@ export default function EssaysPage() {
               href={`/essays/${essay.slug}`}
               className="essayCard"
             >
-              <h2 className="essayTitle">{essay.title}</h2>
-              <p className="essayDesc">{essay.description}</p>
+              <h2 className="essayTitle">{essay.title[lang]}</h2>
+              <p className="essayDesc">{essay.description[lang]}</p>
             </Link>
           );
         })}
