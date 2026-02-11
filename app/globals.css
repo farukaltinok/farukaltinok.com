@@ -93,7 +93,7 @@
   
   
   /* =========================
-     NAVBAR (Rich-ish)
+     NAVBAR
      -> NICHT full width mit eigenem side-padding
      -> wrap übernimmt den Seitenabstand
      ========================= */
@@ -145,7 +145,7 @@
     transition: color 0.2s ease;
   }
   
-  /* Rich Zou Hover: (About) */
+  /* Hover: (About) */
   .navLinks a::before,
   .navLinks a::after {
     opacity: 0;
@@ -213,7 +213,7 @@
   }
   
   /* =========================
-     TIMELINE (Rich-ish)
+     TIMELINE
      ========================= */
   
   .timelineList {
@@ -333,12 +333,12 @@
   
   /* no special flex layout on outer footer; layout handled by .rz-footerInner */
   
-  /* ===== Footer (Rich Zou-ish) ===== */
+  /* ===== Footer ===== */
 
 /* ===== Footer aligned to same grid as header ===== */
 
 /* =========================
-   RZ Footer (Rich Zou-ish)
+   RZ Footer
    ========================= */
 
    .rz-footerInner{
@@ -453,7 +453,7 @@
   
 
   /* =========================
-   MOBILE: Timeline wie Rich (Datum oben, Text darunter)
+   MOBILE: Timeline (Datum oben, Text darunter)
    ========================= */
    @media (max-width: 800px) {
     .timelineRow,
@@ -507,7 +507,7 @@
 
 
 /* =========================
-   LINKS PAGE (Linktree) – Rich Zou-ish (v2)
+   LINKS PAGE (Linktree)
    ========================= */
 
    .rz-linksPage{
