@@ -18,10 +18,10 @@ const essays: Essay[] = [
       en: "The Turkish Guest Worker",
     },
     description: {
-      de: "",
-      en: "",
+      de: "Die Origin Story meines Vaters. Kommt bald.",
+      en: "My father's origin story. Coming soon.",
     },
-    date: "10.02.26",
+    date: "01.03.26",
     comingSoon: true,
   },
   {
@@ -31,10 +31,10 @@ const essays: Essay[] = [
       en: "The Taste of Death",
     },
     description: {
-      de: "Über den Tod meines Vaters und ein Versprechen an meine Mutter.",
-      en: "About the death of my father and a promise to my mother.",
+      de: "Über den frischen Tod meines Vaters und ein Versprechen an meine Mutter.",
+      en: "About the recent death of my father and a promise to my mother.",
     },
-    date: "04.02.26",
+    date: "10.02.26",
     comingSoon: false,
     content: {
       de: `i.
@@ -122,7 +122,7 @@ Möge Allah ihm barmherzig sein. Und möge Er uns allen Kraft, Erfolg und Gesund
 إِنَّا لِلّٰهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ`,
 
       en: `i.
-Every soul shall taste death.
+Each of us will taste death.
 I knew this sentence. I have heard it many times. I also understood it, or at least I thought I did.
 Today it has taken on a different meaning.
 Today my father died.
@@ -193,7 +193,7 @@ That's why I'm going all in now. Not for reach. Not for applause. I simply want 
 
 And it starts with my mother. She shouldn't have to worry about anything anymore. Within three years, InshaAllah, I will retire her. So she can breathe. So she can live again, without constantly having to survive.
 
-This is not a goal meant to look good on a list. It’s a promise.
+This is not a goal meant to look good on a list. It's a promise.
 
 Today, many things that had been blurry for years are suddenly sharp. I feel clarity again.
 

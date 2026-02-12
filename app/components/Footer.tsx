@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { useLang } from "./LanguageContext";
+import ThemeToggle from "./ThemeToggle";
 
 function formatStamp(d: Date, city: string) {
   const parts = new Intl.DateTimeFormat("de-DE", {
@@ -22,31 +23,32 @@ function formatStamp(d: Date, city: string) {
 }
 
 export default function Footer() {
-  const [now, setNow] = useState<Date>(() => new Date());
+  const [now, setNow] = useState<Date | null>(null);
   const { lang, t } = useLang();
 
   useEffect(() => {
+    setNow(new Date());
     const id = setInterval(() => setNow(new Date()), 1000);
     return () => clearInterval(id);
   }, []);
 
   const city = lang === "de" ? "Köln" : "Cologne";
-  const stamp = useMemo(() => formatStamp(now, city), [now, city]);
+  const stamp = now ? formatStamp(now, city) : "";
 
   return (
-    <footer className="rz-footer" aria-label="Footer">
-      <div className="rz-footerInner">
-        <Link href="/impressum" className="rz-footerLeftLink">
+    <footer className="site-footer" aria-label="Footer">
+      <div className="site-footerInner">
+        <Link href="/impressum" className="site-footerLeftLink">
           {t("footer.impressum")}
         </Link>
 
-        <div className="rz-footerRight">
-          <div className="rz-footerLinks">
+        <div className="site-footerRight">
+          <div className="site-footerLinks">
             <a
               href="https://www.linkedin.com/in/farukaltinok"
               target="_blank"
               rel="noreferrer"
-              className="rz-footerLink"
+              className="site-footerLink"
             >
               IN
             </a>
@@ -54,13 +56,15 @@ export default function Footer() {
               href="https://www.instagram.com/farukaltiinok"
               target="_blank"
               rel="noreferrer"
-              className="rz-footerLink"
+              className="site-footerLink"
             >
               IG
             </a>
           </div>
 
-          <div className="rz-footerMeta">{stamp}</div>
+          <div className="site-footerMeta">{stamp}</div>
+
+          <ThemeToggle />
         </div>
       </div>
     </footer>

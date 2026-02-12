@@ -6,11 +6,11 @@ import Footer from "./components/Footer";
 import { Cormorant_Garamond } from "next/font/google";
 import { LanguageProvider } from "./components/LanguageContext";
 
-const rzSerif = Cormorant_Garamond({
+const siteSerif = Cormorant_Garamond({
   subsets: ["latin"],
   weight: ["400", "500"],
   style: ["italic"],
-  variable: "--font-rz-serif",
+  variable: "--font-site-serif",
 });
 
 const geistSans = Geist({
@@ -32,10 +32,10 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="de">
-      <body className={`${rzSerif.variable} ${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="en">
+      <body className={`${siteSerif.variable} ${geistSans.variable} ${geistMono.variable}`}>
         <LanguageProvider>
-          <div className="wrap wide rz-container">
+          <div className="wrap wide site-container">
             <NavBar />
             {children}
           </div>

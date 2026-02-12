@@ -1,32 +1,30 @@
 /* =========================
-   THEME TOKENS (clean)
+   THEME TOKENS
    ========================= */
 
    :root {
-    /* colors (dark default) */
     --bg: #0b0b0d;
-  
-    /* FIX: text muss in dark hell sein */
     --text: rgba(255, 255, 255, 0.99);
     --muted: rgba(255, 255, 255, 0.83);
     --muted2: rgba(255, 255, 255, 0.6);
     --border: rgba(255, 255, 255, 0.08);
   
-    /* nav-specific */
     --logo: rgba(255, 255, 255, 0.92);
     --link: rgba(255, 255, 255, 0.65);
     --linkHover: rgba(255, 255, 255, 0.92);
     --toggle: rgba(255, 255, 255, 0.65);
     --caret: rgba(255, 255, 255, 0.55);
   
-    /* layout */
     --page-max: 1100px;
     --page-pad: 56px;
   
-    /* timeline */
     --timeline-width: 720px;
     --date-col: 92px;
     --col-gap: 18px;
+  
+    /* Unified spacing */
+    --content-top: 48px;
+    --content-bottom: 0px;
   }
   
   /* light theme overrides */
@@ -62,12 +60,8 @@
   a { color: inherit; text-decoration: none; }
   a:hover { opacity: 0.95; }
   
-  /* sanfter theme switch */
-
-  
   /* =========================
      LAYOUT WRAPPERS
-     (wichtig: nav + content gleiche Kante)
      ========================= */
   
   .wrap {
@@ -76,59 +70,55 @@
     padding: 56px var(--page-pad);
   }
   
-  /* "wide" pages dürfen gleich bleiben – aber gleiche padding */
   .wrap.wide {
     max-width: var(--page-max);
     padding-left: var(--page-pad);
     padding-right: var(--page-pad);
   }
-
-  /* Shared layout container for header + footer */
-  .rz-container{
+  
+  .site-container {
     max-width: var(--page-max);
     margin: 0 auto;
     padding-left: var(--page-pad);
     padding-right: var(--page-pad);
   }
   
+  /* =========================
+     UNIFIED CONTENT SPACING
+     Nav → Body and Body → Footer
+     same gap on every page
+     ========================= */
+  
+  main.wrap {
+    padding-top: var(--content-top);
+    padding-bottom: var(--content-bottom);
+  }
   
   /* =========================
      NAVBAR
-     -> NICHT full width mit eigenem side-padding
-     -> wrap übernimmt den Seitenabstand
      ========================= */
   
-     .rz-nav {
-      max-width: var(--page-max);
-      margin: 0 auto;
-    
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    
-      padding-top: 0px;
-      padding-bottom: 0px;
-    
-      /* <- DAS ist der Fix */
-      padding-left: var(--page-pad);
-      padding-right: var(--page-pad);
-    }
-    
+  .site-nav {
+    max-width: var(--page-max);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--page-pad);
+  }
   
-    .rz-logo {
-      color: var(--muted);
-      font-size: 14px;
-      font-weight: 500;
-      letter-spacing: 0.1px;
-      line-height: 1;
-      opacity: 0.85;
-    }
+  .site-logo {
+    color: var(--muted);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    line-height: 1;
+    opacity: 0.85;
+  }
   
-
-  .rz-brand:hover,
-.rz-logo:hover {
-  color: var(--text);
-}
+  .site-logo:hover {
+    color: var(--text);
+  }
   
   .navLinks {
     display: flex;
@@ -145,7 +135,6 @@
     transition: color 0.2s ease;
   }
   
-  /* Hover: (About) */
   .navLinks a::before,
   .navLinks a::after {
     opacity: 0;
@@ -165,7 +154,6 @@
     opacity: 1;
   }
   
-  /* wenn du im JSX aria-current="page" setzt -> bleibt aktiv so */
   .navLinks a[aria-current="page"] {
     color: var(--linkHover);
   }
@@ -174,7 +162,10 @@
     opacity: 1;
   }
   
-  /* Theme Toggle: immer gleiches ICON, nur Farbe via currentColor */
+  /* =========================
+     THEME TOGGLE
+     ========================= */
+  
   .themeToggle {
     background: none;
     border: none;
@@ -191,25 +182,40 @@
     color: var(--linkHover);
   }
   
-  /* ✅ SVG aus /public als Maske -> färbt über currentColor */
   .themeIcon {
     width: 16px;
     height: 16px;
     display: block;
-  
     background-color: currentColor;
-  
     -webkit-mask-image: url("/icons8-nachtmodus.svg");
     mask-image: url("/icons8-nachtmodus.svg");
-  
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
-  
     -webkit-mask-position: center;
     mask-position: center;
-  
     -webkit-mask-size: contain;
     mask-size: contain;
+  }
+  
+  /* =========================
+     LANGUAGE TOGGLE (flags)
+     ========================= */
+  
+  .langToggle {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.2s ease;
+  }
+  
+  .langToggle:hover {
+    opacity: 0.7;
   }
   
   /* =========================
@@ -217,8 +223,7 @@
      ========================= */
   
   .timelineList {
-    margin-top: 7px;
-    width: var(--timeline-width); /* der negative space rechts */
+    width: var(--timeline-width);
   }
   
   .timelineRow {
@@ -241,8 +246,6 @@
     color: var(--muted);
     font-size: 11.5px;
     line-height: 1.45;
-  
-    /* NIE zweizeilig */
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -250,7 +253,7 @@
   }
   
   /* =========================
-     TYPEWRITER (muss exakt wie timeline row sein)
+     TYPEWRITER
      ========================= */
   
   .liveLine {
@@ -259,7 +262,7 @@
     column-gap: var(--col-gap);
     align-items: baseline;
     padding: 10px 0;
-    margin: 0; /* wichtig */
+    margin: 0;
   }
   
   .liveDate {
@@ -274,8 +277,6 @@
     color: var(--muted);
     font-size: 14px;
     line-height: 1.45;
-  
-    /* NIE zweizeilig */
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -292,144 +293,94 @@
   @keyframes blink { 50% { opacity: 0; } }
   
   /* =========================
-     RESPONSIVE
+     FOOTER
      ========================= */
   
-  @media (max-width: 800px) {
-    :root {
-      --page-pad: 20px;
-      --timeline-width: 100%;
-      --date-col: 92px;
-      --col-gap: 18px;
-    }
-  
-    .navLinks { gap: 18px; }
-  }
-  
-
-  .rz-footer{
-    position: static; /* oder einfach löschen */
-    margin-top: 0px; /* kleiner Abstand zum Content */
+  .site-footer {
+    position: static;
+    margin-top: 0;
     padding: 18px 0 26px;
     color: var(--muted);
     font-size: 9px;
     letter-spacing: 0.2px;
   }
   
-  
-  .rz-footerRight{
-    display: flex;
-    gap: 16px;
-    align-items: center;
-  }
-  
-  .rz-footerLink{
-    color: var(--muted);
-  }
-  
-  .rz-footerLink:hover{
-    color: var(--text);
-  }
-  
-  /* no special flex layout on outer footer; layout handled by .rz-footerInner */
-  
-  /* ===== Footer ===== */
-
-/* ===== Footer aligned to same grid as header ===== */
-
-/* =========================
-   RZ Footer
-   ========================= */
-
-   .rz-footerInner{
+  .site-footerInner {
     max-width: var(--page-max);
     margin: 0 auto;
-  
-    /* ✅ match effective header inset:
-       Header sitzt im .wrap (pad) + .rz-nav (pad) => 2 * pad */
-    padding-left: calc(var(--page-pad) * 2);
-    padding-right: calc(var(--page-pad) * 2);
-  
+    padding: 18px calc(var(--page-pad) * 2);
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-  
-    padding-top: 18px;
-    padding-bottom: 18px;
   }
   
-
-.rz-footerLeftLink{
-  color: var(--muted);
-  text-decoration: none;
-  white-space: nowrap;
-}
-.rz-footerLeftLink:hover{ color: var(--text); }
-
-.rz-footerRight{
-  display: inline-flex;
-  align-items: center;
-  gap: 16px;
-  white-space: nowrap;
-}
-
-.rz-footerLinks{
-  display: flex;
-  align-items: center;
-  gap: 18px;      /* <- höher = mehr Abstand */
-}
-
-.rz-footerLink,
-.rz-footerIcon{
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 0; /* verhindert “baseline”-Offset */
-}
-
-.rz-footerIcon svg{
-  display: block; /* entfernt das nach-oben-versetzen */
-}
-.rz-footerLink:hover,
-.rz-footerIcon:hover{ color: var(--text); }
-
-.rz-sep{
-  color: var(--border);
-  opacity: 0.9;
-}
-
-/* Content darf nicht unter Footer liegen */
-.wrap.wide{
-  padding-bottom: 16px;
-}
-
-/* Mobile inset: `--page-pad` already updates at 800px */
-@media (max-width: 800px){
-  .wrap.wide{ padding-bottom: 16px; }
-}
-
-/* Auf Legal Pages soll der Footer normal laufen (nicht fixed) */
-.legalPage ~ .rz-footer{
-  position: static !important;
-}
-.legalScope .rz-footer{ position: static !important; }
-
-/* =========================
-   IMPRESSUM = Timeline Look
-   ========================= */
-
-/* =========================
-   IMPRESSUM – Minimal Text
-   (same style as timeline)
-   ========================= */
-
-   .impressum {
-    margin-top: 34px;
+  .site-footerLeftLink {
+    color: var(--muted);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .site-footerLeftLink:hover { color: var(--text); }
+  
+  .site-footerRight {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    white-space: nowrap;
+  }
+  
+  .site-footerLinks {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  
+  .site-footerLink,
+  .site-footerIcon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+  }
+  
+  .site-footerIcon svg {
+    display: block;
+  }
+  
+  .site-footerLink:hover,
+  .site-footerIcon:hover { color: var(--text); }
+  
+  .site-sep {
+    color: var(--border);
+    opacity: 0.9;
+  }
+  
+  /* =========================
+     HOME
+     ========================= */
+  
+  .home .homeText {
+    font-size: 13.5px;
+    line-height: 1.45;
+    color: var(--muted);
+    letter-spacing: 0.2px;
+  }
+  
+  .home .homeMeta {
+    font-size: 13.5px;
+    line-height: 1.45;
+    color: var(--muted2);
+    letter-spacing: 0.2px;
+  }
+  
+  /* =========================
+     IMPRESSUM
+     ========================= */
+  
+  .impressum {
     width: var(--timeline-width);
   }
   
-  /* Section headline (klein & ruhig, NICHT H1/H2) */
   .impressumTitle {
     color: var(--muted);
     font-size: 11.5px;
@@ -438,7 +389,6 @@
     margin: 0 0 10px 0;
   }
   
-  /* Body text – exakt wie timelineText */
   .impressumText {
     color: var(--muted);
     font-size: 11.5px;
@@ -446,303 +396,15 @@
     margin: 0 0 26px 0;
   }
   
-  /* Optional: mehr Luft zwischen Blöcken 34px eig */
   .impressumBlock {
-    margin-bottom: 0px;
-  }
-  
-
-  /* =========================
-   MOBILE: Timeline (Datum oben, Text darunter)
-   ========================= */
-   @media (max-width: 800px) {
-    .timelineRow,
-    .liveLine {
-      grid-template-columns: 1fr;
-      row-gap: 4px;
-      padding: 8px 0;
-    }
-  
-    .timelineText,
-    .liveGoal {
-      white-space: normal;
-      overflow: visible;
-      text-overflow: unset;
-      padding-left: 0; /* <- wichtig: KEIN Indent */
-    }
+    margin-bottom: 0;
   }
   
   /* =========================
-   HOME – minimal typography
-   ========================= */
-
-.home .homeText{
-  font-size: 13.5px;
-  line-height: 1.45;
-  color: var(--muted);
-  letter-spacing: 0.2px;
-}
-
-.home .homeMeta{
-  font-size: 13.5px;
-  line-height: 1.45;
-  color: var(--muted2);
-  letter-spacing: 0.2px;
-}
-
-/* ===== Page Header (global) ===== */
-.pageHeader {
-  margin-bottom: 34px; /* exakt wie timeline start */
-}
-
-.pageHeader h1 {
-  margin: 0 0 8px 0;
-}
-
-.pageHeader p {
-  margin: 0;
-}
-
-
-
-
-/* =========================
-   LINKS PAGE (Linktree)
-   ========================= */
-
-   .rz-linksPage{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 34px;
-    padding-bottom: 16px;
-  }
+     ESSAYS – Overview
+     ========================= */
   
-  .rz-linksInner{
-    width: 100%;
-    max-width: 560px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 22px;
-  }
-  
-  .rz-linksTop{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  /* Avatar */
-.rz-linksAvatar{
-  width: 128px;
-  height: 128px;
-  border-radius: 999px;
-  overflow: hidden;
-  border: 2px solid color-mix(in srgb, var(--border) 65%, var(--text) 35%);
-}
-  .rz-linksAvatar img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-  
-  /* Name + title */
-  .rz-linksName{
-    margin-top: 18px;
-    color: var(--text);
-    font-size: 34px;
-    line-height: 1.1;
-    font-weight: 700;
-    letter-spacing: -0.4px;
-    text-align: center;
-  }
-  
-  .rz-linksTitle{
-    margin-top: 10px;
-    color: var(--muted);
-    font-size: 16px;
-    line-height: 1.35;
-    text-align: center;
-  }
-  
-  /* Quote (hero) */
-  .rz-linksQuote{
-    margin-top: 26px;
-    font-family: var(--font-rz-serif), ui-serif, Georgia, serif;
-    font-style: italic;
-    font-weight: 500;
-    color: var(--text);
-    font-size: clamp(34px, 4.3vw, 54px);
-    line-height: 1.08;
-    letter-spacing: -0.4px;
-    text-align: center;
-    max-width: 18ch;
-  }
-  
-  /* Social row */
-  .rz-linksRow{
-    margin-top: 26px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 14px;
-    flex-wrap: wrap;
-  }
-  
-  .rz-socialBtn{
-    width: 52px;
-    height: 52px;
-    border-radius: 999px;
-    border: 1px solid var(--border);
-    background: color-mix(in srgb, var(--bg) 78%, var(--text) 22%);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--muted);
-    transition: color 0.2s ease, border-color 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
-  }
-  
-  .rz-socialBtn:hover{
-    color: var(--text);
-    border-color: color-mix(in srgb, var(--border) 50%, var(--text) 50%);
-    background: color-mix(in srgb, var(--bg) 70%, var(--text) 30%);
-    transform: translateY(-1px);
-  }
-  
-  .rz-socialBtn svg {
-    display: block;
-    width: 24px;
-    height: 24px;
-  }
-  
-
-  /* Featured Card */
-  .rz-featureCard{
-    width: 100%;
-    max-width: 560px;
-    display: block;
-  }
-  
-  .rz-featureThumb{
-    position: relative;
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    border-radius: 26px;
-    overflow: hidden;
-    border: 1px solid var(--border);
-    box-shadow: 0 26px 80px rgba(0,0,0,0.55);
-  }
-  
-  .rz-featureThumb img{
-    object-fit: cover;
-  }
-  
-  .rz-featureMeta{
-    margin-top: 14px;
-    text-align: center;
-  }
-  
-  .rz-featureTitle{
-    color: var(--text);
-    font-size: 20px;
-    line-height: 1.25;
-    font-weight: 650;
-    letter-spacing: -0.2px;
-  }
-  
-  .rz-featureTag{
-    margin-top: 8px;
-    color: var(--muted);
-    font-size: 14px;
-    line-height: 1.35;
-  }
-  
-  /* Primary action */
-  .rz-linksActions{
-    width: 100%;
-    max-width: 560px;
-    padding-left: 16px;
-    padding-right: 16px;
-    box-sizing: border-box;
-  }
-  
-  
-/* ===== Links: Primary box (final) ===== */
-.rz-primaryLink{
-  width: 100%;
-  display: flex;
-  align-items: center;
-
-  /* NICHT space-between, sonst wieder ganz außen */
-  justify-content: flex-start;
-
-  /* Nähe zwischen Titel und Badge */
-  gap: 10px;
-
-  /* Badge bleibt rechts, aber nicht “ganz außen” */
-  padding: 22px 20px;
-  border-radius: 22px;
-
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.12);
-}
-
-.rz-primaryLink{
-  width: 100%;
-  display: flex;
-  align-items: center;
-
-  /* Inhalte bleiben zusammen */
-  justify-content: space-between;
-
-  /* MEHR Abstand zu den Seiten */
-  padding: 20px 32px;
-
-  border-radius: 22px;
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.12);
-}
-
-.rz-primaryText{
-  color: var(--text);
-  font-size: 22px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-}
-
-.rz-primaryBadge{
-
-  background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.15);
-  color: rgba(255,255,255,0.75);
-
-  font-size: 11px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-
-  padding: 7px 14px;
-  border-radius: 999px;
-  white-space: nowrap;
-
-  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
-}
-
-/* Hover: NUR der Badge */
-.rz-primaryLink:hover .rz-primaryBadge{
-  background: rgba(255,255,255,0.16);
-  border-color: rgba(255,255,255,0.28);
-  color: rgba(255,255,255,0.92);
-}
-
-/* =========================
-   ESSAYS – Übersicht
-   ========================= */
-
-   .essaysList {
-    margin-top: 7px;
+  .essaysList {
     width: var(--timeline-width);
     display: flex;
     flex-direction: column;
@@ -755,6 +417,11 @@
     transition: opacity 0.2s ease;
   }
   
+  /* First card: no top padding so it aligns with other pages */
+  .essayCard:first-child {
+    padding-top: 0;
+  }
+  
   .essayCard + .essayCard {
     border-top: 1px solid var(--border);
   }
@@ -763,7 +430,6 @@
     opacity: 0.65;
   }
   
-  /* Coming-soon cards */
   .essayCard--soon {
     cursor: default;
     opacity: 0.6;
@@ -773,7 +439,6 @@
     opacity: 0.6;
   }
   
-  /* Title + badge on one line */
   .essayTitleRow {
     display: flex;
     align-items: baseline;
@@ -783,7 +448,7 @@
   .essayTitle {
     margin: 0;
     color: var(--text);
-    font-family: var(--font-rz-serif), ui-serif, Georgia, serif;
+    font-family: var(--font-site-serif), ui-serif, Georgia, serif;
     font-style: italic;
     font-weight: 400;
     font-size: 20px;
@@ -808,16 +473,13 @@
     line-height: 1.45;
     letter-spacing: 0.2px;
     max-width: 480px;
-  
-    /* Force single line */
   }
   
   /* =========================
-     ESSAY – Einzelansicht
+     ESSAY – Detail
      ========================= */
   
   .essayArticle {
-    margin-top: 7px;
     width: var(--timeline-width);
   }
   
@@ -841,7 +503,7 @@
   .essayArticleTitle {
     margin: 0;
     color: var(--text);
-    font-family: var(--font-rz-serif), ui-serif, Georgia, serif;
+    font-family: var(--font-site-serif), ui-serif, Georgia, serif;
     font-style: italic;
     font-weight: 400;
     font-size: 26px;
@@ -849,7 +511,6 @@
     letter-spacing: -0.2px;
   }
   
-  /* Sections: big gap ABOVE each section (space from previous content) */
   .essaySection {
     margin-top: 44px;
   }
@@ -858,8 +519,6 @@
     margin-top: 0;
   }
   
-  /* Roman numeral labels – smaller, thinner, grayer, italic
-     TIGHT to the paragraph below (small margin-bottom) */
   .essaySectionLabel {
     color: var(--muted2);
     font-style: italic;
@@ -869,7 +528,6 @@
     opacity: 0.7;
   }
   
-  /* Body paragraphs */
   .essayContent p {
     color: var(--muted);
     font-size: 14px;
@@ -883,12 +541,236 @@
   }
   
   /* =========================
-     ESSAYS – Mobile
+     LINKS PAGE (Linktree)
+     ========================= */
+  
+  .site-linksPage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 34px;
+    padding-bottom: 16px;
+  }
+  
+  .site-linksInner {
+    width: 100%;
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+  }
+  
+  .site-linksTop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .site-linksAvatar {
+    width: 128px;
+    height: 128px;
+    border-radius: 999px;
+    overflow: hidden;
+    border: 2px solid color-mix(in srgb, var(--border) 65%, var(--text) 35%);
+  }
+  
+  .site-linksAvatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .site-linksName {
+    margin-top: 18px;
+    color: var(--text);
+    font-size: 34px;
+    line-height: 1.1;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    text-align: center;
+  }
+  
+  .site-linksTitle {
+    margin-top: 10px;
+    color: var(--muted);
+    font-size: 16px;
+    line-height: 1.35;
+    text-align: center;
+  }
+  
+  .site-linksQuote {
+    margin-top: 26px;
+    font-family: var(--font-site-serif), ui-serif, Georgia, serif;
+    font-style: italic;
+    font-weight: 500;
+    color: var(--text);
+    font-size: clamp(34px, 4.3vw, 54px);
+    line-height: 1.08;
+    letter-spacing: -0.4px;
+    text-align: center;
+    max-width: 18ch;
+  }
+  
+  .site-linksRow {
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  
+  .site-socialBtn {
+    width: 52px;
+    height: 52px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: color-mix(in srgb, var(--bg) 78%, var(--text) 22%);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--muted);
+    transition: color 0.2s ease, border-color 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
+  }
+  
+  .site-socialBtn:hover {
+    color: var(--text);
+    border-color: color-mix(in srgb, var(--border) 50%, var(--text) 50%);
+    background: color-mix(in srgb, var(--bg) 70%, var(--text) 30%);
+    transform: translateY(-1px);
+  }
+  
+  .site-socialBtn svg {
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .site-featureCard {
+    width: 100%;
+    max-width: 560px;
+    display: block;
+  }
+  
+  .site-featureThumb {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 26px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    box-shadow: 0 26px 80px rgba(0,0,0,0.55);
+  }
+  
+  .site-featureThumb img {
+    object-fit: cover;
+  }
+  
+  .site-featureMeta {
+    margin-top: 14px;
+    text-align: center;
+  }
+  
+  .site-featureTitle {
+    color: var(--text);
+    font-size: 20px;
+    line-height: 1.25;
+    font-weight: 650;
+    letter-spacing: -0.2px;
+  }
+  
+  .site-featureTag {
+    margin-top: 8px;
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.35;
+  }
+  
+  .site-linksActions {
+    width: 100%;
+    max-width: 560px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+  }
+  
+  .site-primaryLink {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 32px;
+    border-radius: 22px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.12);
+  }
+  
+  .site-primaryText {
+    color: var(--text);
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+  
+  .site-primaryBadge {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
+    color: rgba(255,255,255,0.75);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 7px 14px;
+    border-radius: 999px;
+    white-space: nowrap;
+    transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+  }
+  
+  .site-primaryLink:hover .site-primaryBadge {
+    background: rgba(255,255,255,0.16);
+    border-color: rgba(255,255,255,0.28);
+    color: rgba(255,255,255,0.92);
+  }
+  
+  /* =========================
+     RESPONSIVE
      ========================= */
   
   @media (max-width: 800px) {
+    :root {
+      --page-pad: 20px;
+      --timeline-width: 100%;
+      --date-col: 92px;
+      --col-gap: 18px;
+      --content-top: 34px;
+      --content-bottom: 34px;
+    }
+  
+    .navLinks { gap: 18px; }
+  
+    .timelineRow,
+    .liveLine {
+      grid-template-columns: 1fr;
+      row-gap: 4px;
+      padding: 8px 0;
+    }
+  
+    .timelineText,
+    .liveGoal {
+      white-space: normal;
+      overflow: visible;
+      text-overflow: unset;
+      padding-left: 0;
+    }
+  
     .essayCard {
       padding: 18px 0;
+    }
+  
+    .essayCard:first-child {
+      padding-top: 0;
     }
   
     .essayTitle {
@@ -903,67 +785,3 @@
       margin-top: 32px;
     }
   }
-
-
-  /* =========================
-   LANGUAGE TOGGLE
-   ========================= */
-
-.langToggle {
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  color: var(--toggle);
-  font-size: 10px;
-  font-weight: 500;
-  letter-spacing: 0.3px;
-  line-height: 1;
-  transition: color 0.2s ease;
-}
-
-.langToggle:hover {
-  color: var(--linkHover);
-}
-
-/* =========================
-   LANGUAGE TOGGLE
-   ========================= */
-
-   .langToggle {
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    color: var(--link);
-    font-size: 10px;
-    font-weight: 500;
-    letter-spacing: 0.3px;
-    line-height: 1;
-    transition: color 0.2s ease;
-  }
-  
-  .langToggle:hover {
-    color: var(--linkHover);
-  }
-
-  /* =========================
-   LANGUAGE TOGGLE (flags)
-   ========================= */
-
-.langToggle {
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  font-size: 14px;
-  line-height: 1;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  transition: opacity 0.2s ease;
-}
-
-.langToggle:hover {
-  opacity: 0.7;
-}
