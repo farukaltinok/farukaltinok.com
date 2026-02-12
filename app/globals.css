@@ -350,6 +350,10 @@
   .site-footerLink:hover,
   .site-footerIcon:hover { color: var(--text); }
   
+
+.site-footerMeta {
+  font-variant-numeric: tabular-nums;
+}
   .site-sep {
     color: var(--border);
     opacity: 0.9;
@@ -744,7 +748,7 @@
       --timeline-width: 100%;
       --date-col: 92px;
       --col-gap: 18px;
-      --content-top: 34px;
+      --content-top: 54px;
       --content-bottom: 34px;
     }
   

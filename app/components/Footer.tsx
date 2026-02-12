@@ -1,39 +1,47 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useLang } from "./LanguageContext";
 import ThemeToggle from "./ThemeToggle";
 
-function formatStamp(d: Date, city: string) {
-  const parts = new Intl.DateTimeFormat("de-DE", {
+function formatTime(d: Date, city: string, lang: string) {
+  if (lang === "de") {
+    const parts = new Intl.DateTimeFormat("de-DE", {
+      timeZone: "Europe/Berlin",
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12: false,
+    }).formatToParts(d);
+
+    const get = (t: string) => parts.find((p) => p.type === t)?.value ?? "";
+    return `${city}, ${get("hour")}:${get("minute")}:${get("second")} Uhr`;
+  }
+
+  const parts = new Intl.DateTimeFormat("en-US", {
     timeZone: "Europe/Berlin",
-    day: "2-digit",
-    month: "2-digit",
-    year: "numeric",
     hour: "2-digit",
     minute: "2-digit",
     second: "2-digit",
+    hour12: true,
   }).formatToParts(d);
 
   const get = (t: string) => parts.find((p) => p.type === t)?.value ?? "";
-  return `${city}, ${get("day")}.${get("month")}.${get("year")}, ${get("hour")}:${get(
-    "minute"
-  )}:${get("second")}`;
+  return `${city}, ${get("hour")}:${get("minute")}:${get("second")} ${get("dayPeriod")}`;
 }
 
 export default function Footer() {
-  const [now, setNow] = useState<Date | null>(null);
+  const [now, setNow] = useState<Date>(() => new Date());
   const { lang, t } = useLang();
 
   useEffect(() => {
-    setNow(new Date());
     const id = setInterval(() => setNow(new Date()), 1000);
     return () => clearInterval(id);
   }, []);
 
   const city = lang === "de" ? "Köln" : "Cologne";
-  const stamp = now ? formatStamp(now, city) : "";
+  const stamp = useMemo(() => formatTime(now, city, lang), [now, city, lang]);
 
   return (
     <footer className="site-footer" aria-label="Footer">
