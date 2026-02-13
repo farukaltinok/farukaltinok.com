@@ -12,13 +12,13 @@ const translations: Translations = {
   "nav.essays": { de: "Essays", en: "Essays" },
 
   // Home
-  "home.1": { de: "Ich baue Personal Brands & Apps.", en: "I build personal brands & apps." },
+  "home.1": { de: "Ich erzähle Geschichten und baue Dinge.", en: "I tell stories and build things." },
   "home.2": { de: "Ich bin 23 y/o türkisch-deutscher Creator, geboren in Köln.", en: "I'm a 23 y/o Turkish-German creator, born in Cologne." },
   "home.3": { de: "Kumuliert habe ich über 2 Mio Follower aufgebaut.", en: "Combined, I've grown over 2 million followers." },
   "home.4": { de: "Aktuell evaluiere ich, woran ich 2026 bauen möchte.", en: "Currently figuring out what to build in 2026." },
   "home.5": { de: "Mein Ziel ist es, Mama in 3 Jahren zu retiren.", en: "My goal is to retire mom in 3 years." },
   "home.6": { de: "Meine Mission ist es, die Welt zu verstehen und zu verbessern.", en: "My mission is to understand and improve the world." },
-  "home.7": { de: "Du erreichst mich per E-Mail unter kontakt@farukaltinok.com", en: "You can reach me via email at kontakt@farukaltinok.com" },
+  "home.7": { de: "kontakt@farukaltinok.com", en: "kontakt@farukaltinok.com" },
   "home.8": { de: "LG Faruk", en: "Best, Faruk" },
 
   // Essays
@@ -34,9 +34,10 @@ const translations: Translations = {
   "about.goal3": { de: "Reise in die Arktis planen (2026)", en: "Plan a trip to the Arctic (2026)" },
 
   // About / Timeline
+  "about.t0": { de: "Mein Vater ist verstorben", en: "My father passed away" },
   "about.t1": { de: "Unter Shaolin Mönchen in China gelebt", en: "Lived among Shaolin monks in China" },
   "about.t2": { de: "Palutens Nummer geklärt (mein größter Flex)", en: "Got Paluten's number (my biggest flex)" },
-  "about.t3": { de: "Mit YouTube gestartet", en: "Started my YouTube channel" },
+  "about.t3": { de: "Krebsdiagnose meines Vaters erhalten", en: "Found out my father has cancer" },
   "about.t4": { de: "1 Mio Follower geknackt", en: "Hit 1 million followers" },
   "about.t5": { de: "Mit TikTok gestartet", en: "Started my TikTok channel" },
   "about.t6": { de: "1,0er Durchschnitt erreicht", en: "Achieved a 4.0 GPA equivalent" },

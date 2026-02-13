@@ -7,9 +7,9 @@ export default function About() {
   const { t } = useLang();
 
   const timeline = [
+    { date: "10.02.26", key: "about.t0" },
     { date: "16.10.25", key: "about.t1" },
-    { date: "08.10.24", key: "about.t2" },
-    { date: "12.05.24", key: "about.t3" },
+    { date: "16.07.23", key: "about.t3" },
     { date: "14.07.22", key: "about.t4" },
     { date: "13.12.19", key: "about.t5" },
     { date: "12.07.19", key: "about.t6" },
