@@ -21,7 +21,7 @@ export default function Home() {
     lang === "de"
       ? [
           "Ich erzähle Geschichten und baue Dinge.",
-          `${age} y/o türkisch-deutsch. Geboren und aufgewachsen in Köln.`,
+          `${age} y/o türkisch deutscher. Geboren und aufgewachsen in Köln.`,
           "Kumuliert habe ich über 2 Mio Follower aufgebaut.",
           "Aktuell evaluiere ich, woran ich 2026 bauen möchte.",
           "Mein Ziel ist es, Mama in 3 Jahren zu retiren.",
@@ -31,7 +31,7 @@ export default function Home() {
         ]
       : [
           "I tell stories and build things.",
-          `${age} y/o Turkish-German. Born and raised in Cologne.`,
+          `${age} y/o Turkish German. Born and raised in Cologne.`,
           "Combined, I've grown over 2 million followers.",
           "Currently figuring out what to build in 2026.",
           "My goal is to retire mom in 3 years.",
