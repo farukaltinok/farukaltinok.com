@@ -13,7 +13,7 @@ const translations: Translations = {
 
   // Home
   "home.1": { de: "Ich erzähle Geschichten und baue Dinge.", en: "I tell stories and build things." },
-  "home.2": { de: "Ich bin 23 y/o türkisch-deutscher Creator, geboren in Köln.", en: "I'm a 23 y/o Turkish-German creator, born in Cologne." },
+  "home.2": { de: "y/o türkisch-deutsch. Geboren und aufgewachsen in Köln.", en: "y/o Turkish-German. Born and raised in Cologne." },
   "home.3": { de: "Kumuliert habe ich über 2 Mio Follower aufgebaut.", en: "Combined, I've grown over 2 million followers." },
   "home.4": { de: "Aktuell evaluiere ich, woran ich 2026 bauen möchte.", en: "Currently figuring out what to build in 2026." },
   "home.5": { de: "Mein Ziel ist es, Mama in 3 Jahren zu retiren.", en: "My goal is to retire mom in 3 years." },
