@@ -584,7 +584,7 @@ What that whole experience did was change what I consider hard. Building a busin
 vi.
 Looking back at the last ten years, there are a few patterns in how I make decisions that keep repeating. These aren't principles I read somewhere and adopted. They formed through trial and error.
 
-I kill my own ideas. The magnetic motor didn't work, I moved on. The biochemist path didn't add up, I found another way. The tutoring platform got paused, I pivoted. I try to stay attached to the outcome, not the path.
+I kill my own ideas. The magnetic motor didn't work, I moved on. The biochemist path didn't add up, I found another way. The tutoring platform got paused, I pivoted. I try to stay attached to the goal, not the path.
 
 I think in leverage, not effort. The question is never how hard should I work. The question is: what produces the largest result for the smallest input? Tutoring at 8€ per hour is trading time for money. Building a platform that connects thousands of students with thousands of tutors is building a machine that works without me. Same hours invested, completely different ceiling.
 
