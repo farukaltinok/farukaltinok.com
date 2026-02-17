@@ -21,7 +21,7 @@ export default function Home() {
     lang === "de"
       ? [
           "Ich erzähle Geschichten und baue Dinge.",
-          `${age} y/o türkisch deutscher. Geboren und aufgewachsen in Köln.`,
+          `${age} y/o türkisch-deutscher. Geboren und aufgewachsen in Köln.`,
           "Kumuliert habe ich über 2 Mio Follower aufgebaut.",
           "Aktuell evaluiere ich, woran ich 2026 bauen möchte.",
           "Mein Ziel ist es, Mama in 3 Jahren zu retiren.",

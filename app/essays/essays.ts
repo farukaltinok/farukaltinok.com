@@ -219,7 +219,7 @@ Und Mauern, von denen ich nicht mal wusste, dass sie existieren, sind in sich zu
 
 ii.
 
-Trauer macht seltsame Dinge mit einem. Sie macht dich nicht nur traurig. Sie reißt dich auf. Sie löst irgendwas in deiner Brust, von dem du nicht wusstest, dass es versiegelt war, und auf einmal spürst du alles. Nicht nur den Schmerz, mit dem du gerechnet hast, sondern Sachen, die du dir nie erlaubt hast zu fühlen. Zärtlichkeit. Verletzlichkeit. Sehnsucht. Über Nacht bin ich von jemandem, der Emotionen kaum registriert hat, zu jemandem geworden, der darin ertrinkt. SubhanAllah. Ich bin gleichzeitig auseinandergefallen und aufgebrochen.
+Trauer macht seltsame Dinge mit einem. Sie macht dich nicht nur traurig. Sie reißt dich auf. Sie löst irgendwas in deiner Brust, von dem du nicht wusstest, dass es versiegelt war, und auf einmal spürst du alles. Nicht nur den Schmerz, mit dem du gerechnet hast, sondern Sachen, die du dir nie erlaubt hast zu fühlen. Zärtlichkeit. Verletzlichkeit. Sehnsucht. Über Nacht bin ich von jemandem, der Emotionen kaum registriert hat, zu jemandem geworden, der darin ertrinkt. Ich bin gleichzeitig auseinandergefallen und aufgebrochen.
 
 In genau dieser Phase, in dieser Zeit des kompletten Aufgelöstseins, habe ich jemanden kennengelernt.
 
@@ -317,7 +317,7 @@ And the walls I didn't know I had collapsed.
 
 
 ii.
-Grief does strange things to a person. It doesn't just make you sad. It opens you. It tears something loose inside your chest that you didn't know was sealed shut, and suddenly you feel everything. Not just the pain you expected, but things you never gave yourself permission to feel. Tenderness. Vulnerability. Longing. I went from someone who barely registered emotion to someone drowning in it overnight. SubhanAllah. I was falling apart and falling open at the same time.
+Grief does strange things to a person. It doesn't just make you sad. It opens you. It tears something loose inside your chest that you didn't know was sealed shut, and suddenly you feel everything. Not just the pain you expected, but things you never gave yourself permission to feel. Tenderness. Vulnerability. Longing. I went from someone who barely registered emotion to someone drowning in it overnight. I was falling apart and falling open at the same time.
 
 It was during this period, this season of being completely unraveled, that I met someone.
 
@@ -510,7 +510,7 @@ Ich bin praktizierender Muslim. Ich bete fünfmal am Tag. Mein Glaube gibt mir e
 
 Das ist kein Widerspruch. Das ist das Fundament. Weil es die Angst vor dem Scheitern nimmt. Und jemand ohne diese Angst kann Risiken eingehen, die andere nicht eingehen.
 
-Meine Intention hinter allem, was ich tue, geht über Geld hinaus. Ich will etwas hinterlassen für meine Familie, für meine Community und für jeden, der das hier in 30 Jahren liest und sich fragt, was für eine Denkweise es gebraucht hat, um von 8,73€ dorthin zu kommen, wo ich dann stehen werde, InshaAllah.
+Meine Intention hinter allem, was ich tue, geht über Geld hinaus. Ich will etwas hinterlassen für meine Familie, für meine Community und für jeden, der das hier in 30 Jahren liest und sich fragt, was für eine Denkweise es gebraucht hat, um von 8,73€ dorthin zu kommen, wo ich dann stehen werde.
 
 
 x.
@@ -624,7 +624,7 @@ I'm a practicing Muslim. I pray five times a day. My faith gives me something th
 
 That's not a contradiction. It's the foundation. Because it removes the fear of failure. And someone without that fear can take risks that others won't.
 
-My intention behind everything I do goes beyond money. I want to leave something behind for my family, for my community, and for anyone reading this in 30 years wondering what kind of thinking it took to get from 8.73€ to wherever I'll be standing then, InshaAllah.
+My intention behind everything I do goes beyond money. I want to leave something behind for my family, for my community, and for anyone reading this in 30 years wondering what kind of thinking it took to get from 8.73€ to wherever I'll be standing then.
 
 
 x.
