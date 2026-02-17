@@ -422,7 +422,7 @@ Love is not about finding someone. It is about building someone. Yourself.`,
     content: {
       de: `I.
 
-Wenn mich als Kind etwas fasziniert hat, wollte ich sofort meine eigene Version davon bauen. Das war der Standardmodus. Mit 11 habe ich versucht, einen Magnetmotor zu bauen. Ein Gerät, das allein aus Magneten unendlich Energie erzeugt. Hat nicht funktioniert. Kann nicht funktionieren. Verstößt gegen die Gesetze der Thermodynamik. Also weiter. Ich habe Super Mario gespielt und wollte mein eigenes Spiel machen, also habe ich ein Jump-and-Run programmiert. Kaputte Handys repariert und auf eBay weiterverkauft, als Taschengeld.
+Wenn mich als Kind etwas fasziniert hat, wollte ich sofort meine eigene Version davon bauen. Das war der Standardmodus. Mit 11 habe ich versucht, einen Magnetmotor zu bauen. Ein Gerät, das allein aus Magneten unendlich Energie erzeugt. Hat nicht funktioniert. Kann nicht funktionieren. Verstößt gegen die Gesetze der Thermodynamik. Also weiter. Ich habe Super Mario gespielt und wollte mein eigenes Spiel machen, also habe ich ein Jump-and-Run programmiert. Ich habe mein erstes Handy bekommen und angefangen, kaputte Handys zu reparieren und auf eBay weiterzuverkaufen, als Taschengeld.
 
 Ich erzähle das nicht, um irgendjemanden zu beeindrucken. Ich erzähle es, weil sich darin ein Muster zeigt, das fast alle meine Entscheidungen seitdem erklärt. Wenn mich etwas interessiert, ist mein erster Impuls nicht Bewunderung. Es ist der Drang, die Sache auseinanderzunehmen und selbst nachzubauen.
 
@@ -545,7 +545,7 @@ Es gibt immer einen anderen Weg.
 
       en: `I.
 
-As a kid, whenever something fascinated me, I wanted to build my own version of it. That was the default. At 11, I tried building a magnetic motor. A device that would generate infinite energy from magnets alone. It didn't work. It can't work. It violates the laws of thermodynamics. So I moved on. I played Super Mario and wanted to make my own game, so I programmed a jump-and-run. I repaired broken phones and resold them on eBay for pocket money.
+As a kid, whenever something fascinated me, I wanted to build my own version of it. That was the default. At 11, I tried building a magnetic motor. A device that would generate infinite energy from magnets alone. It didn't work. It can't work. It violates the laws of thermodynamics. So I moved on. I played Super Mario and wanted to make my own game, so I programmed a jump-and-run. I got my first phone, and began to repair broken phones to resell them on eBay for pocket money.
 
 I don't mention these things to impress anyone. I mention them because they show a pattern that explains most of my decisions since. When something interests me, my first instinct isn't to admire it. It's to take it apart and figure out how to build it myself.
 
