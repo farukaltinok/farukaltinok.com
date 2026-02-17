@@ -200,8 +200,8 @@ May Allah have mercy on him. And may He grant us all strength, success, and heal
       en: "The Love Letter in Berlin",
     },
     description: {
-      de: "Über Limerence, echte Liebe, und die Frau, die ich nicht aus meinem Kopf bekam.",
-      en: "About limerence, real love, and the woman I could not stop thinking about.",
+      de: "Über Limerence, Liebe, und die Frau, die ich nicht aus meinem Kopf bekam.",
+      en: "About limerence, love, and the woman I could not stop thinking about.",
     },
     date: "16.02.26",
     comingSoon: false,
