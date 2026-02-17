@@ -426,9 +426,9 @@
     padding-top: 0;
   }
   
-  .essayCard + .essayCard {
+  /* .essayCard + .essayCard {
     border-top: 1px solid var(--border);
-  }
+  } */
   
   .essayCard:hover {
     opacity: 0.65;
@@ -452,10 +452,10 @@
   .essayTitle {
     margin: 0;
     color: var(--text);
-    font-family: var(--font-site-serif), ui-serif, Georgia, serif;
-    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    /*font-style: italic;*/
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.3;
     letter-spacing: -0.1px;
   }
@@ -507,8 +507,7 @@
   .essayArticleTitle {
     margin: 0;
     color: var(--text);
-    font-family: var(--font-site-serif), ui-serif, Georgia, serif;
-    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 26px;
     line-height: 1.25;
@@ -607,7 +606,7 @@
   
   .site-linksQuote {
     margin-top: 26px;
-    font-family: var(--font-site-serif), ui-serif, Georgia, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     font-weight: 500;
     color: var(--text);
