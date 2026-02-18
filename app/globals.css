@@ -433,7 +433,7 @@
   } */
   
   .essayCard:hover {
-    opacity: 0.65;
+    opacity: 1;
   }
   
   .essayCard--soon {
