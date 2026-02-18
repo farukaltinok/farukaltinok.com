@@ -269,7 +269,7 @@ Ich kille meine eigenen Ideen. Der Magnetmotor hat nicht funktioniert, weitergez
 
 Ich denke in Leverage, nicht in Aufwand. Die Frage ist nie, wie hart soll ich arbeiten. Die Frage ist: Was erzeugt das größte Ergebnis mit dem geringsten Einsatz? Nachhilfe für 8€ die Stunde ist Zeit gegen Geld tauschen. Eine Plattform bauen, die Tausende Schüler mit Tausenden Tutoren verbindet, ist eine Maschine bauen, die ohne mich funktioniert. Gleiche investierte Stunden, komplett anderes Potenzial.
 
-Ich denke in Phasen. Innerhalb jeder Phase passiert viel gleichzeitig. Aber ich springe nicht zur nächsten, bevor die aktuelle Phase das Fundament dafür gelegt hat. Die 3D-Druck-Vision startet nicht, bevor der Cashflow steht. Klingt offensichtlich, aber die meisten ambitionierten Menschen überspringen das, weil die große Vision aufregender ist als die langweilige Grundlagenarbeit.
+Ich denke in Phasen. Innerhalb jeder Phase passiert viel gleichzeitig. Aber ich springe nicht zur nächsten, bevor die aktuelle Phase das Fundament dafür gelegt hat. Die größere Vision startet nicht, bevor das Fundament steht. Klingt offensichtlich, aber die meisten ambitionierten Menschen überspringen das, weil die große Vision aufregender ist als die langweilige Grundlagenarbeit.
 
 Ich reverse-engineere statt zu konsumieren. Mario gespielt, ein Spiel gebaut. TikTok geschaut, Content produziert. Biografien gelesen, ein Unternehmen gegründet.
 
@@ -383,7 +383,7 @@ I kill my own ideas. The magnetic motor didn't work, I moved on. The biochemist 
 
 I think in leverage, not effort. The question is never how hard should I work. The question is: what produces the largest result for the smallest input? Tutoring at 8€ per hour is trading time for money. Building a platform that connects thousands of students with thousands of tutors is building a machine that works without me. Same hours invested, completely different ceiling.
 
-I think in phases. Within each phase, a lot happens at once. But I don't jump to the next one before the current one has built the foundation for it. The 3D printing vision doesn't start before the cash flow is there. That sounds obvious, but most ambitious people skip ahead because the big vision is more exciting than the boring groundwork.
+I think in phases. Within each phase, a lot happens at once. But I don't jump to the next one before the current one has built the foundation for it. The bigger vision doesn't start before the foundation is built. That sounds obvious, but most ambitious people skip ahead because the big vision is more exciting than the boring groundwork.
 
 I reverse-engineer instead of consuming. Played Mario, built a game. Watched TikTok, produced content. Read biographies, started a company.
 
