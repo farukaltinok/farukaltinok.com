@@ -504,10 +504,11 @@ vi.
 
 Ich will eine Frau mit eigener Agenda. Eigenem Feuer. Eigener Vision, die sie mit ihren eigenen Händen aufbaut. Ich will nicht jemandes ganze Welt sein. Das ist zu viel Druck für einen einzelnen Menschen. Ich will Teil eines gemeinsamen Universums sein. Zwei Menschen mit eigenen Umlaufbahnen, die sich dafür entscheiden, um dieselbe Sonne zu kreisen.
 
-Nationalität ist mir egal. Herkunft ist mir egal. Was zählt, ist Charakter. Werte. Ob wir auf derselben Wellenlänge sind. Ob sie tagsüber ein Imperium aufbauen kann und abends einfach in den Bergen leben will. Ob sie von Milliarden träumt für die Legacy, und gleichzeitig von einem stillen Leben mit Ziegen und Tee und Frieden. Ich will jemanden, der beide Welten in sich trägt, weil ich beide in mir trage.
+Nationalität ist mir egal. Herkunft ist mir egal. Was zählt, ist Charakter. Werte. Ob wir auf derselben Wellenlänge sind. Ob sie tagsüber ein Imperium aufbauen kann und abends einfach in den Bergen leben will. Ob sie Imperien bauen will und trotzdem von einem stillen Leben mit Ziegen und Tee und Frieden träumt. Ich will jemanden, der beide Welten in sich trägt, weil ich beide in mir trage.
 
 Und ich will, dass wir zusammen etwas aufbauen, das über dieses Leben hinausgeht. Ich will nicht nur eine Partnerin für die Dunya. Ich will eine Partnerin für die Akhira. Jemanden, neben dem ich stehe. Nicht nur in dieser Welt, sondern auch in der nächsten.
 
+Ich habe vor kurzem etwas gelesen, das hängen geblieben ist. Jemand fragte: Was ist wichtiger, der Weg oder das Ziel? Die Antwort war: die Begleitung. Dem kann ich nur zustimmen.
 
 vii.
 
@@ -598,9 +599,11 @@ This is the part most people skip. Everyone talks about what they want in a part
 vi.
 I want a woman with her own agenda. Her own fire. Her own vision she is building with her own hands. I don't want to be someone's world. That is too much pressure for any one person. I want to be part of a shared universe. Two people with their own orbits, choosing to revolve around the same sun.
 
-Nationality doesn't matter to me. Background doesn't matter. What matters is character. Values. Whether we are on the same wavelength. Whether she can build an empire by day and live simply in the mountains by night. Whether she dreams of billions for the legacy, and also of a quiet life with goats and tea and peace. I want someone who holds both of these worlds inside her, because I hold both inside me.
+Nationality doesn't matter to me. Background doesn't matter. What matters is character. Values. Whether we are on the same wavelength. Whether she can build an empire by day and live simply in the mountains by night. Whether she wants to build empires and still dream of a quiet life with goats and tea and peace. I want someone who holds both of these worlds inside her, because I hold both inside me.
 
 And I want us to build something that outlasts this life entirely. I don't just want a partner for the Dunya. I want a partner for the Akhira. Someone I will stand beside not only in this world, but in the next.
+
+I read something recently that stayed with me. Someone asked: what matters more, the journey or the destination? The answer was: the company. I could not agree more.
 
 
 vii.
