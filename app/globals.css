@@ -412,6 +412,7 @@
     width: var(--timeline-width);
     display: flex;
     flex-direction: column;
+    padding-top: 10px;
   }
   
   .essayCard {
@@ -786,5 +787,9 @@
   
     .essaySection {
       margin-top: 32px;
+    }
+    
+    .essaysList {
+      padding-top: 10px;
     }
   }
