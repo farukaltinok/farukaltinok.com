@@ -444,7 +444,7 @@ There's always another way.
       de: "Über Limerence, Liebe, und die Frau, die ich nicht aus meinem Kopf bekam.",
       en: "About limerence, love, and the woman I could not stop thinking about.",
     },
-    date: "16.02.26",
+    date: "18.02.26",
     comingSoon: false,
     content: {
       de: `i.
