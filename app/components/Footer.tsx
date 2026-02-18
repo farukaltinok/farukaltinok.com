@@ -70,7 +70,7 @@ export default function Footer() {
             </a>
           </div>
 
-          <div className="site-footerMeta">{stamp}</div>
+          <div className="site-footerMeta" suppressHydrationWarning>{stamp}</div>
 
           <ThemeToggle />
         </div>

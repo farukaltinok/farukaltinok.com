@@ -29,7 +29,7 @@
   
   /* light theme overrides */
   [data-theme="light"] {
-    --bg: #fafafa;
+    --bg: #f5f0e8;
     --text: rgba(11, 11, 11, 0.99);
     --muted: rgba(11, 11, 11, 0.8);
     --muted2: rgba(11, 11, 11, 0.5);
@@ -451,7 +451,7 @@
   
   .essayTitle {
     margin: 0;
-    color: var(--text);
+    color: var(--muted);
     font-family: 'Times New Roman', Times, serif;
     /*font-style: italic;*/
     font-weight: 400;
@@ -506,7 +506,7 @@
   
   .essayArticleTitle {
     margin: 0;
-    color: var(--text);
+    color: var(--muted);
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 26px;
