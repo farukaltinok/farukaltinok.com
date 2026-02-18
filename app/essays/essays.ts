@@ -12,7 +12,7 @@ export type Essay = {
 // ➜ Älteste Essays oben, neueste unten
 const essays: Essay[] = [
   {
-    slug: "der-geschmack-des-todes",
+    slug: "the-taste-of-death",
     title: {
       de: "Der Geschmack des Todes",
       en: "The Taste of Death",
@@ -194,7 +194,7 @@ May Allah have mercy on him. And may He grant us all strength, success, and heal
     },
   },
   {
-    slug: "die-5000-jahre-formel",
+    slug: "the-5000-year-equation",
     title: {
       de: "Die 5000 Jahre Formel",
       en: "The 5,000 Year Equation",
@@ -435,7 +435,7 @@ There's always another way.
     },
   },
   {
-    slug: "der-liebesbrief-in-berlin",
+    slug: "the-love-letter-in-berlin",
     title: {
       de: "Der Liebesbrief in Berlin",
       en: "The Love Letter in Berlin",
@@ -643,7 +643,7 @@ Love is not about finding someone. It is about building someone. Yourself.`,
     },
   },
   {
-    slug: "der-tuerkische-gastarbeiter",
+    slug: "the-turkish-guest-worker",
     title: {
       de: "Der Türkische Gastarbeiter",
       en: "The Turkish Guest Worker",
