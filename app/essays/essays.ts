@@ -113,7 +113,9 @@ Sein Tag war heute.
 
 Möge Allah ihm barmherzig sein. Und möge Er uns allen Kraft, Erfolg und Gesundheit geben.
 
-إِنَّا لِلّٰهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ`,
+إِنَّا لِلّٰهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ
+
+Wahrlich, wir gehören Allah und zu Ihm kehren wir zurück.`,
 
       en: `i.
 Each of us will taste death.
@@ -204,7 +206,9 @@ Today was his day.
 
 May Allah have mercy on him. And may He grant us all strength, success, and health.
 
-إِنَّا لِلّٰهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ`,
+إِنَّا لِلّٰهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ
+
+Indeed, to Allah we belong and to Him we shall return.`,
     },
   },
   {
@@ -309,7 +313,7 @@ Mein Vater hat mir beigebracht, dass niemand dir deine Freude nehmen kann. Das g
 
 Es gibt immer einen anderen Weg.
 
-Heutiges Datum: 17.02.2026`,
+Geschrieben am 17. Februar 2026.`,
 
       en: `i.
 
@@ -401,7 +405,7 @@ My father taught me that no one can take away your joy. That applies to you too.
 
 There's always another way.
 
-Today's date: 17.02.2026`,
+Written on February 17, 2026.`,
     },
   },
   {
