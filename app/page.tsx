@@ -25,9 +25,8 @@ export default function Home() {
       ? [
           `${age} y/o Deutsch-Türke, geboren in Köln.`,
           "Kumuliert über 2 Mio Follower aufgebaut.",
-          "Aktuell evaluiere ich, woran ich 2026 bauen möchte.",
+          "Aktuell schaue ich, woran ich 2026 bauen will.",
           "Mein Ziel ist es, Mama in 3 Jahren zu retiren.",
-          "Meine Mission ist es, die Welt zu verstehen und zu verbessern.",
           "kontakt@farukaltinok.com",
           "LG Faruk",
         ]
@@ -36,7 +35,6 @@ export default function Home() {
           "Combined, I've grown over 2 million followers.",
           "Currently figuring out what to build in 2026.",
           "My goal is to retire my mom in 3 years.",
-          "My mission is to understand and improve the world.",
           "kontakt@farukaltinok.com",
           "Best, Faruk",
         ];
@@ -50,7 +48,11 @@ export default function Home() {
 
         {lines.map((line, i) => (
           <p key={i} className={`homeText${i === lines.length - 2 ? " homeTextSpaced" : ""}`}>
-            {line}
+            {line.includes("@") ? (
+              <a href={`mailto:${line}`} className="homeLink">{line}</a>
+            ) : (
+              line
+            )}
           </p>
         ))}
       </section>

@@ -386,7 +386,17 @@
   }
 
   .home .homeTextSpaced {
-    margin-top: 2em;
+    margin-top: 2.2em;
+  }
+
+  .home .homeLink {
+    color: var(--muted);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .home .homeLink:hover {
+    color: var(--text);
   }
   
   .home .homeMeta {
