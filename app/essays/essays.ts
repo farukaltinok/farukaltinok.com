@@ -255,7 +255,7 @@ Dann bin ich auf TikTok gestoßen. Es war 2019, vor der Pandemie. Runtergeladen,
 
 Dann kam Covid. Und plötzlich hatte ich Zeit.
 
-Ich habe TikTok nochmal runtergeladen. Diesmal nicht zum Konsumieren, sondern zum Produzieren. Die Logik war simpel: Menschen folgen keinen Marken, sie folgen Menschen. Also baue ich eine persönliche Reichweite in unserer Zielgruppe auf und nutze sie, um die Plattform zu vermarkten.
+Ich habe TikTok nochmal runtergeladen. Die Logik war simpel: Menschen folgen keinen Marken, sie folgen Menschen. Also baue ich eine persönliche Reichweite in unserer Zielgruppe auf und nutze sie, um die Plattform zu vermarkten.
 
 Ich habe angefangen, Comedy Content mit Schulbezug zu posten. Innerhalb von Monaten hatte ich 100.000 Follower. Genau die Zielgruppe, die unser Startup brauchte. Aber das Timing hat nicht gepasst. Die Schule wurde zu intensiv, und wir haben das Projekt pausiert, um unser Abitur durchzuziehen.
 
@@ -347,7 +347,7 @@ That's when I came across TikTok. It was 2019, before the pandemic. I downloaded
 
 Then Covid hit. And suddenly, I had time.
 
-I downloaded TikTok again. This time not to consume, but to produce. The logic was simple: people don't follow brands, they follow people. So I'd build a personal audience in our target demographic and use it to market the platform.
+I downloaded TikTok again. The logic was simple: people don't follow brands, they follow people. So I'd build a personal audience in our target demographic and use it to market the platform.
 
 I started posting school-related comedy content. Within months, I had 100,000 followers. Exactly the audience our startup needed. But the timing didn't work out. School got too demanding, and we paused the project to finish our Abitur.
 
