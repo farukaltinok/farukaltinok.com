@@ -113,9 +113,7 @@ Sein Tag war heute.
 
 Möge Allah ihm barmherzig sein. Und möge Er uns allen Kraft, Erfolg und Gesundheit geben.
 
-إِنَّا لِلّٰهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ
-
-Wahrlich, wir gehören Allah und zu Ihm kehren wir zurück.`,
+إِنَّا لِلّٰهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ`,
 
       en: `i.
 Each of us will taste death.
@@ -206,9 +204,7 @@ Today was his day.
 
 May Allah have mercy on him. And may He grant us all strength, success, and health.
 
-إِنَّا لِلّٰهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ
-
-Indeed, to Allah we belong and to Him we shall return.`,
+إِنَّا لِلّٰهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ`,
     },
   },
   {
