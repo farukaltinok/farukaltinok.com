@@ -214,8 +214,8 @@ May Allah have mercy on him. And may He grant us all strength, success, and heal
       en: "The 5,000 Year Equation",
     },
     description: {
-      de: "Über die Art, wie ich denke und die Zukunft plane.",
-      en: "About the way I think and plan the future.",
+      de: "Über die Art, wie ich denke und meine Pläne für die Zukunft.",
+      en: "About the way I think and my plans for the future.",
     },
     date: "17.02.26",
     comingSoon: false,
