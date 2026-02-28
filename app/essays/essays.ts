@@ -497,7 +497,9 @@ Und es gibt keine Strategie auf dieser Welt dafür, jemanden loszulassen, dessen
 
 viii.
 
-Ich weiß nicht, ob die Frau, der ich damals den Brief geschrieben habe, das hier jemals lesen wird. Ein Teil von mir hofft es. Ein anderer hofft es nicht, weil ich nicht möchte, dass sie sich belastet fühlt von Gefühlen, um die sie nicht gebeten hat. Ich hab Abstand gehalten. Nicht weil die Gefühle weg sind, sondern weil ich sie genug respektiere, um sie ihr Leben leben zu lassen. Ungestört von meinem.
+Ich weiß, dass ich eine Vorstellung geliebt habe. Ich weiß, dass die Frau, die ich in meinem Kopf gebaut habe, nicht die Frau war, die vor mir stand. Das habe ich akzeptiert. Aber zu wissen, woher ein Gefühl kommt, lässt es nicht verschwinden. Der Kopf hat verstanden. Das Herz zieht noch nach. Und vielleicht ist das der ehrlichste Ort, an dem ich gerade stehen kann: zwischen dem Wissen, dass ich sie nie wirklich kannte, und einem Gefühl, das sich weigert zu gehen, selbst nachdem die Illusion einen Namen bekommen hat.
+
+Ich weiß nicht, ob sie das hier jemals lesen wird. Ein Teil von mir hofft es. Ein anderer hofft es nicht, weil ich nicht möchte, dass sie sich belastet fühlt von Gefühlen, um die sie nicht gebeten hat. Ich hab Abstand gehalten. Nicht weil die Gefühle weg sind, sondern weil ich sie genug respektiere, um sie ihr Leben leben zu lassen. Ungestört von meinem.
 
 Ich habe akzeptiert, dass wir vielleicht nie zusammen sein werden. Und das meine ich ernst. Nicht als Show von Reife, sondern als ein Ort der Ruhe, den mein Herz tatsächlich gefunden hat. Ich weiß nicht, ob das, was ich durchgemacht habe, eine Prüfung der Akzeptanz war oder eine Prüfung der Geduld. Im Islam nennen wir das Sabr. Diese schmerzhafte, wunderschöne Disziplin, Allahs Timing zu vertrauen, selbst wenn das eigene Herz nach einer Antwort schreit. Vielleicht hat Er mir diese Sehnsucht gegeben, um mir zu zeigen, dass nur Seine Liebe dauerhaft ist. Vielleicht hat Er mein Herz von ihrem getrennt, um etwas zu beschützen, das ich noch nicht sehen kann. Vielleicht dauert das Warten länger als gedacht. Oder vielleicht war das Ziel nie sie.
 
@@ -601,7 +603,9 @@ And there is certainly no strategy for letting go of someone you were never allo
 
 viii.
 
-I don't know if the woman I once wrote a letter to will ever read this. Part of me hopes she does. Part of me hopes she doesn't, because I never want her to feel burdened by feelings she did not ask for. I have kept my distance. Not because my feelings faded, but because I respect her enough to let her live her life uninterrupted by mine.
+I know I loved an image. I know the woman I built in my mind was not the woman who stood in front of me. I have accepted that. But knowing where a feeling comes from does not make it disappear. The mind understood. The heart is still catching up. And maybe that is the most honest place I can stand right now: between the knowledge that I never truly knew her, and a feeling that refuses to leave even after the illusion has been named.
+
+I don't know if she will ever read this. Part of me hopes she does. Part of me hopes she doesn't, because I never want her to feel burdened by feelings she did not ask for. I have kept my distance. Not because my feelings faded, but because I respect her enough to let her live her life uninterrupted by mine.
 
 I have accepted that we may never be together. And I mean that. Not as a performance of maturity, but as a genuine resting place my heart has found. I don't know if what I experienced was a test of acceptance or a test of patience. In Islam, we call this sabr. The beautiful, aching discipline of trusting Allah's timing even when your own heart is screaming for an answer. Maybe He placed this longing in me to teach me that only His love is permanent. Maybe He separated my heart from hers to protect something I cannot yet see. Maybe the wait is longer than I imagined. Or maybe the destination was never her at all.
 
