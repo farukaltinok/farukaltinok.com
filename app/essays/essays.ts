@@ -7,6 +7,7 @@ export type Essay = {
   date: string;
   comingSoon?: boolean;
   content?: Record<Lang, string>;
+  writtenOn?: Record<Lang, string>;
 };
 
 // ➜ Älteste Essays oben, neueste unten
@@ -307,9 +308,7 @@ Aber egal wie es ausgegangen ist: Schau auf das Denken, nicht auf die Ergebnisse
 
 Mein Vater hat mir beigebracht, dass niemand dir deine Freude nehmen kann. Das gilt auch für dich. Fang an. Rechne. Und wenn die Formel nicht aufgeht, finde einen anderen Weg.
 
-Es gibt immer einen anderen Weg.
-
-Geschrieben am 17. Februar 2026.`,
+Es gibt immer einen anderen Weg.`,
 
       en: `i.
 
@@ -399,9 +398,11 @@ But regardless of the outcome: look at the thinking, not the results. The questi
 
 My father taught me that no one can take away your joy. That applies to you too. Start. Calculate. And if the equation doesn't work, find another way.
 
-There's always another way.
-
-Written on February 17, 2026.`,
+There's always another way.`,
+    },
+    writtenOn: {
+      de: "Geschrieben am 17. Februar 2026.",
+      en: "Written on February 17, 2026.",
     },
   },
   {
@@ -517,7 +518,9 @@ Jeder Herzschmerz. Jede Ablehnung. Jeder Brief mit zittrigen Händen, auf den ni
 
 Früher dachte ich, unerwiderte Liebe sei Zeitverschwendung. Heute sehe ich das anders. Die Liebe, die ich in mir trage, ob sie jemals erwidert wird oder nicht, hat mich weicher gemacht. Freundlicher. Menschlicher. Sie hat was in mir aufgebrochen, an das Strategien und Systeme nie rangekommen wären. Dafür bin ich dankbar.
 
-Ich weiß nicht, wer meine Frau sein wird. Ich habe jemanden im Herzen, aber Allah weiß es am besten. Was ich weiß: Ich warte nicht darauf, dass irgendwer mich vervollständigt. Ich werde vollständig, allein. Alles, was ich gerade in mir aufbaue, jede Lektion, jedes Gebet, jeder stille Schritt nach vorne, davon wird meine zukünftige Frau eines Tages profitieren. Nicht weil ich es für sie getan habe. Sondern weil ich es für den Mann getan habe, der ich sein will, wenn sie kommt.`,
+Ich weiß nicht, wer meine Frau sein wird. Was ich weiß: Ich warte nicht darauf, dass irgendwer mich vervollständigt. Ich werde vollständig, allein. Alles, was ich gerade in mir aufbaue, jede Lektion, jedes Gebet, jeder stille Schritt nach vorne, davon wird meine zukünftige Frau eines Tages profitieren. Nicht weil ich es für sie getan habe. Sondern weil ich es für den Mann getan habe, der ich sein will, wenn sie kommt.
+
+Bei Liebe geht es nicht darum, jemanden zu finden. Es geht darum, jemanden aufzubauen. Dich selbst.`,
 
       en: `i.
 
@@ -619,7 +622,7 @@ Every heartbreak. Every rejection. Every letter written with trembling hands tha
 
 I used to think unrequited love was a waste. Now I see it differently. The love I carry, whether it is ever returned or not, has made me softer. Kinder. More human. It broke open a version of me that strategies and systems never could. And for that, I am grateful.
 
-I do not know who my wife will be. I have someone in my heart, but Allah knows best. What I do know is this: I am not waiting for someone to complete me. I am becoming complete on my own. Everything I am building in myself right now, every lesson, every prayer, every quiet act of growth, my future wife will one day benefit from all of it. Not because I did it for her. But because I did it for the man I want to be when she arrives.
+I do not know who my wife will be. What I do know is this: I am not waiting for someone to complete me. I am becoming complete on my own. Everything I am building in myself right now, every lesson, every prayer, every quiet act of growth, my future wife will one day benefit from all of it. Not because I did it for her. But because I did it for the man I want to be when she arrives.
 
 Love is not about finding someone. It is about building someone. Yourself.`,
     },

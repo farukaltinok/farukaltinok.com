@@ -576,6 +576,15 @@
   .essaySection p:last-child {
     margin-bottom: 0;
   }
+
+  .essayWrittenDate {
+    color: var(--muted2);
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 32px;
+  }
   
   /* =========================
      LINKS PAGE (Linktree)

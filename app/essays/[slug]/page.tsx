@@ -101,6 +101,10 @@ export default function EssayDetailPage() {
             </section>
           ))}
         </div>
+
+        {essay.writtenOn?.[lang] && (
+          <p className="essayWrittenDate">{essay.writtenOn[lang]}</p>
+        )}
       </article>
     </main>
   );
