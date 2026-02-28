@@ -24,8 +24,8 @@ export default function Home() {
     lang === "de"
       ? [
           `${age} y/o Deutsch-Türke, geboren in Köln.`,
-          "Kumuliert über 2 Millionen Follower aufgebaut.",
-          "Content für Brands wie Disney und LEGO erstellt.",
+          "Kumuliert über 2 mio Follower aufgebaut.",
+          "Content mit Disney und LEGO erstellt.",
           "Aktuell schaue ich, woran ich 2026 bauen will.",
           "Mein Ziel ist, Mama in 3 Jahren zu retiren.",
           "kontakt@farukaltinok.com",
@@ -33,8 +33,8 @@ export default function Home() {
         ]
       : [
           `${age} y/o Turkish-German, born in Cologne.`,
-          "Combined, I've grown over 2 million followers.",
-          "Created content for brands like Disney and LEGO.",
+          "Combined, I've grown 2 mio followers.",
+          "Created content with Disney and LEGO.",
           "Currently figuring out what to build in 2026.",
           "My goal is to retire my mom in 3 years.",
           "kontakt@farukaltinok.com",
