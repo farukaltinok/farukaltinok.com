@@ -419,7 +419,9 @@ Written on February 17, 2026.`,
     content: {
       de: `i.
 
-Es gibt ein Wort, das die meisten nie lernen, weil das Gefühl dahinter eines ist, das kaum jemand hinterfragt. Das Wort ist Limerence. Dieser obsessive, unwillkürliche Zustand, sich nach einem Menschen zu sehnen. Es tarnt sich als Liebe. Sieht aus wie Liebe, klingt wie Liebe, brennt wie Liebe. Aber es ist keine Liebe. Es ist der Hunger danach. Und ich weiß das, weil ich davon verschlungen wurde.
+Ich habe mich mal in eine Frau verliebt, die ich erfunden habe.
+
+Nicht absichtlich, natürlich. Aber genau das ist passiert. Es gibt einen Unterschied zwischen einen Menschen zu lieben und die Vorstellung eines Menschen zu lieben. Das eine erfordert, jemanden wirklich zu kennen. Das andere erfordert nur deine Fantasie. Beides sieht gleich aus, klingt gleich, brennt gleich. Aber es ist nicht dasselbe. Und ich weiß das, weil ich auf der falschen Seite gelebt habe.
 
 Zuerst muss ich euch etwas über mich erzählen: Den größten Teil meines Lebens war ich überzeugt, dass ich kein Mensch bin, der tief empfindet. Ich habe mich durch die Welt bewegt wie ein Stratege. Schule war ein System, das man entschlüsseln muss. Ich hab rausgefunden, wie man Bestnoten holt mit chirurgischer Präzision. Social Media war ein Algorithmus, den man meistern muss. Mit neunzehn hatte ich eine Reichweite von Millionen. Alles in meinem Leben hatte eine Formel. Input, Prozess, Output. Darin war ich gut. Darin war ich zuhause. Emotionen waren Hintergrundrauschen.
 
@@ -450,15 +452,15 @@ Ich erzähle das nicht für Mitleid, sondern weil ich ehrlich sein will. Denn we
 
 iv.
 
-Was ich gespürt habe, war keine Liebe. Es war Limerence.
+Ich war nicht in sie verliebt. Ich war verliebt in die, die ich mir vorgestellt habe.
 
-Limerence ist, was passiert, wenn sich dein Kopf auf jemanden fixiert und aus einem einzigen Gespräch eine Kathedrale baut. Ein Fiebertraum von Connection. Intensiv, schön und im Kern unvollständig. Es lebt davon, dass du jemanden nicht wirklich kennst. Es überlebt durch Unsicherheit, durch das Fragezeichen, durch den Raum zwischen „vielleicht" und „nie". Je weniger du weißt, desto mehr füllt dein Kopf die Lücken, und was dabei entsteht, ist berauschend. Aber es ist Architektur ohne Fundament.
+Und Vorstellung ist mächtig. Sie nimmt ein einziges Gespräch und baut eine Kathedrale daraus. Sie nimmt einen Blick und schreibt eine ganze Zukunft daraus. Ein Fiebertraum von Connection. Intensiv, schön und im Kern unvollständig. Es lebt davon, dass du jemanden nicht wirklich kennst. Es überlebt durch Unsicherheit, durch das Fragezeichen, durch den Raum zwischen „vielleicht" und „nie". Je weniger du weißt, desto mehr füllt dein Kopf die Lücken, und was dabei entsteht, ist berauschend. Aber es ist Architektur ohne Fundament.
 
 Echte Liebe ist nichts davon.
 
 Ich weiß, wie echte Liebe aussieht, weil ich sie mein ganzes Leben lang gesehen habe. Meine Mutter und mein Vater. Die hatten kein Feuerwerk. Die hatten was viel Größeres. Jahrzehnte. Zwei Menschen, die mehr getragen haben als sie hätten tragen müssen, und sich trotzdem jeden Morgen wieder füreinander entschieden haben. Nächte voller Geldsorgen und Morgen, an denen sie zusammen eine Lösung gesucht haben. Mein Vater, Fabrikarbeiter, der sich nie beschwert hat über ein Leben, das schwerer war als irgendjemand ahnte. Und meine Mutter, die als Putzfrau gearbeitet hat, dann mit vierzig beschlossen hat, nochmal zur Uni zu gehen, zu studieren und als erste Person ihrer Familie einen Uni-Abschluss zu machen. Und mein Vater, der ihr nie das Gefühl gegeben hat, sie sei zu viel, weil sie mehr wollte.
 
-Ohne meine Mutter wäre mein Vater nicht halb der Mann gewesen, der er war. Und ich glaube, er würde dasselbe sagen. Das ist Liebe. Nicht das Zittern, nicht die Obsession, nicht die Briefe mit zittrigen Händen. Liebe ist das, was übrig bleibt, wenn Limerence ausgebrannt ist. Sie entsteht in Jahren des Seite-an-Seite-Kämpfens. In geteilten Missionen und geteilter Stille. In der Art, wie jemand deine Hand hält, nicht weil das Herz rast, sondern weil es ruhig ist.
+Ohne meine Mutter wäre mein Vater nicht halb der Mann gewesen, der er war. Und ich glaube, er würde dasselbe sagen. Das ist Liebe. Nicht das Zittern, nicht die Obsession, nicht die Briefe mit zittrigen Händen. Liebe ist das, was übrig bleibt, wenn die Illusion verblasst. Sie entsteht in Jahren des Seite-an-Seite-Kämpfens. In geteilten Missionen und geteilter Stille. In der Art, wie jemand deine Hand hält, nicht weil das Herz rast, sondern weil es ruhig ist.
 
 
 v.
@@ -472,20 +474,20 @@ Das ist der Teil, den die meisten überspringen. Alle reden darüber, was sie in
 
 vi.
 
+Ich habe vor kurzem etwas gelesen, das hängen geblieben ist. Jemand fragte: Was ist wichtiger, der Weg oder das Ziel? Die Antwort war: die Begleitung. Dem kann ich nur zustimmen.
+
 Ich will eine Frau mit eigener Agenda. Eigenem Feuer. Eigener Vision, die sie mit ihren eigenen Händen aufbaut. Ich will nicht jemandes ganze Welt sein. Das ist zu viel Druck für einen einzelnen Menschen. Ich will Teil eines gemeinsamen Universums sein. Zwei Menschen mit eigenen Umlaufbahnen, die sich dafür entscheiden, um dieselbe Sonne zu kreisen.
 
 Nationalität ist mir egal. Herkunft ist mir egal. Was zählt, ist Charakter. Werte. Ob wir auf derselben Wellenlänge sind. Ob sie tagsüber ein Imperium aufbauen kann und abends einfach in den Bergen leben will. Ob sie tagsüber etwas Großes aufbauen kann und abends nichts lieber will als Ziegen und Tee und Frieden. Ich will jemanden, der beide Welten in sich trägt, weil ich beide in mir trage.
 
 Und ich will, dass wir zusammen etwas aufbauen, das über dieses Leben hinausgeht. Ich will nicht nur eine Partnerin für die Dunya. Ich will eine Partnerin für die Akhira. Jemanden, neben dem ich stehe. Nicht nur in dieser Welt, sondern auch in der nächsten.
 
-Ich habe vor kurzem etwas gelesen, das hängen geblieben ist. Jemand fragte: Was ist wichtiger, der Weg oder das Ziel? Die Antwort war: die Begleitung. Dem kann ich nur zustimmen.
-
 
 vii.
 
 Ich glaube, Liebe ist für jemanden wie mich deshalb so schwer, weil sie das eine verlangt, was ich mein ganzes Leben lang vermieden habe. Kontrollverlust.
 
-Ich war immer der, der Sachen rausfindet. Der das Muster sieht, das System baut, das Problem löst, bevor es eins wird. Kontrolle ist für mich nicht bloß Gewohnheit. So habe ich überlebt. So habe ich aus eine 3,0 Durchnschnitt eine 1,0 gemacht. So habe ich 2 Millionen Follower aufgebaut, aus dem Nichts.
+Ich war immer der, der Sachen rausfindet. Der das Muster sieht, das System baut, das Problem löst, bevor es eins wird. Kontrolle ist für mich nicht bloß Gewohnheit. So habe ich überlebt. So habe ich aus eine 3,0 Durchschnitt eine 1,0 gemacht. So habe ich 2 Millionen Follower aufgebaut, aus dem Nichts.
 
 Aber Liebe respektiert keine Kontrolle. Es ist ihr egal, wie vorbereitet du bist. Sie kommt rein ohne zu fragen und stellt alles in deinem Kopf um. Und das Härteste ist nicht das Gefühl selbst. Es ist zu akzeptieren, dass man es nicht verdienen kann. Nicht erzwingen. Nicht reparieren. Man kann nur dastehen, offen sein und hoffen, dass das, was für einen bestimmt ist, einen auch erkennt.
 
@@ -515,12 +517,13 @@ Jeder Herzschmerz. Jede Ablehnung. Jeder Brief mit zittrigen Händen, auf den ni
 
 Früher dachte ich, unerwiderte Liebe sei Zeitverschwendung. Heute sehe ich das anders. Die Liebe, die ich in mir trage, ob sie jemals erwidert wird oder nicht, hat mich weicher gemacht. Freundlicher. Menschlicher. Sie hat was in mir aufgebrochen, an das Strategien und Systeme nie rangekommen wären. Dafür bin ich dankbar.
 
-Ich weiß nicht, wer meine Frau sein wird. Ich habe jemanden im Herzen, aber Allah weiß es am besten. Was ich weiß: Ich warte nicht darauf, dass irgendwer mich vervollständigt. Ich werde vollständig, allein. Alles, was ich gerade in mir aufbaue, jede Lektion, jedes Gebet, jeder stille Schritt nach vorne, davon wird meine zukünftige Frau eines Tages profitieren. Nicht weil ich es für sie getan habe. Sondern weil ich es für den Mann getan habe, der ich sein will, wenn sie kommt.
-
-Bei Liebe geht es nicht darum, jemanden zu finden. Es geht darum, jemanden aufzubauen. Dich selbst.`,
+Ich weiß nicht, wer meine Frau sein wird. Ich habe jemanden im Herzen, aber Allah weiß es am besten. Was ich weiß: Ich warte nicht darauf, dass irgendwer mich vervollständigt. Ich werde vollständig, allein. Alles, was ich gerade in mir aufbaue, jede Lektion, jedes Gebet, jeder stille Schritt nach vorne, davon wird meine zukünftige Frau eines Tages profitieren. Nicht weil ich es für sie getan habe. Sondern weil ich es für den Mann getan habe, der ich sein will, wenn sie kommt.`,
 
       en: `i.
-There is a word most people never learn, because the feeling it describes is one most people never question. The word is limerence. The obsessive, involuntary state of longing for another person. It disguises itself as love. It wears love's clothes, speaks in love's voice, and burns with what feels like love's fire. But it is not love. It is the hunger for love. And I know this, because I have been consumed by it.
+
+I once fell in love with a woman I invented.
+
+Not deliberately, of course. But that is what happened. There is a difference between loving someone and loving the idea of someone. One requires knowing a person fully. The other only requires your imagination. They wear the same clothes, speak in the same voice, and burn with what feels like the same fire. But they are not the same. And I know this, because I have lived on the wrong side.
 
 I need to tell you something about myself first: For most of my life, I believed I was someone who didn't feel things deeply. I moved through the world like a strategist. School was a system to decode. I figured out how to earn the highest marks with surgical precision. Social media was an algorithm to master. I built an audience of millions by the time I was nineteen. Everything in my life had a formula. Input, process, output. I was good at this. I was comfortable in it. Emotions were background noise.
 
@@ -530,6 +533,7 @@ And the walls I didn't know I had collapsed.
 
 
 ii.
+
 Grief does strange things to a person. It doesn't just make you sad. It opens you. It tears something loose inside your chest that you didn't know was sealed shut, and suddenly you feel everything. Not just the pain you expected, but things you never gave yourself permission to feel. Tenderness. Vulnerability. Longing. I went from someone who barely registered emotion to someone drowning in it overnight. I was falling apart and falling open at the same time.
 
 It was during this period, this season of being completely unraveled, that I met someone.
@@ -538,6 +542,7 @@ I won't say her name. I won't describe her in ways that make her recognizable. B
 
 
 iii.
+
 I wrote her a letter. A real, handwritten letter. My hands were trembling. In an age where people confess feelings through texts they can delete, through DMs they can unsend, I chose ink on paper. Permanent, irreversible, terrifying. I gave it to her in Berlin, and in that moment I felt more exposed than I had ever felt in front of a camera, an audience, or a crowd.
 
 She was kind. She told me, days later, with grace and respect, that she wasn't looking for a relationship. That her focus was on building her vision, her business, her life. And you know what? I loved that about her. I love it still. A woman who knows what she wants and has the discipline to pursue it. That is not rejection. That is focus. And I respect it more than she will ever know.
@@ -548,18 +553,20 @@ I am telling you this not for sympathy, but for honesty. Because if I am going t
 
 
 iv.
-What I felt was not love. It was limerence.
 
-Limerence is what happens when your mind fixates on someone and builds a cathedral out of a conversation. It is the fever dream of connection. Intense, beautiful, and fundamentally incomplete. It lives in the absence of knowing someone fully. It survives on uncertainty, on the question mark, on the space between "maybe" and "never." The less you know, the more your imagination fills in the gaps, and what it builds is intoxicating. But it is architecture without a foundation.
+I was not in love with her. I was in love with who I imagined her to be.
+
+And imagination is a powerful thing. It takes a single conversation and builds a cathedral around it. It takes a glance and writes an entire future from it. It is the fever dream of connection. Intense, beautiful, and fundamentally incomplete. It lives in the absence of knowing someone fully. It survives on uncertainty, on the question mark, on the space between "maybe" and "never." The less you know, the more your mind fills in the gaps, and what it builds is intoxicating. But it is architecture without a foundation.
 
 Real love is nothing like this.
 
 I know what real love looks like, because I watched it my entire life. My mother and my father. They didn't have fireworks. They had something far greater. They had decades. They had two people who carried more than they should have been able to, and still chose each other every single morning. They had nights of worry about money and mornings of figuring it out together. They had my father, a factory worker who never complained about a life that was heavier than anyone knew. And my mother, who worked as a cleaner, then at forty years old decided to go back to school, study, and become the first person in her family to earn a university degree. And my father, who never once made her feel small for wanting more.
 
-Without my mother, my father would not have been half the man he was. And I believe he would say the same. That is love. Not the trembling, not the obsession, not the letters written with shaking hands. Love is what remains after limerence burns out. It is built in years of fighting side by side. In shared missions and shared silence. In the way someone holds your hand not because their heart is racing, but because their heart is steady.
+Without my mother, my father would not have been half the man he was. And I believe he would say the same. That is love. Not the trembling, not the obsession, not the letters written with shaking hands. Love is what remains after the illusion fades. It is built in years of fighting side by side. In shared missions and shared silence. In the way someone holds your hand not because their heart is racing, but because their heart is steady.
 
 
 v.
+
 My grandfather, and I am laughing as I write this, once climbed a minaret in Turkey and threatened to jump if he couldn't be with my grandmother. I come from a lineage of men who love recklessly, dramatically, almost absurdly. There is something beautiful about that. But there is also something I want to do differently.
 
 I don't just want to find the right woman. I want to be the right man.
@@ -568,16 +575,18 @@ This is the part most people skip. Everyone talks about what they want in a part
 
 
 vi.
+
+I read something recently that stayed with me. Someone asked: what matters more, the journey or the destination? The answer was: the company. I could not agree more.
+
 I want a woman with her own agenda. Her own fire. Her own vision she is building with her own hands. I don't want to be someone's world. That is too much pressure for any one person. I want to be part of a shared universe. Two people with their own orbits, choosing to revolve around the same sun.
 
 Nationality doesn't matter to me. Background doesn't matter. What matters is character. Values. Whether we are on the same wavelength. Whether she can build an empire by day and live simply in the mountains by night. Whether she can conquer the world by day and still long for a quiet life with goats and tea and peace. I want someone who holds both of these worlds inside her, because I hold both inside me.
 
 And I want us to build something that outlasts this life entirely. I don't just want a partner for the Dunya. I want a partner for the Akhira. Someone I will stand beside not only in this world, but in the next.
 
-I read something recently that stayed with me. Someone asked: what matters more, the journey or the destination? The answer was: the company. I could not agree more.
-
 
 vii.
+
 I think the reason love is so difficult for someone like me is that it demands the one thing I have spent my entire life avoiding. Surrender.
 
 I have always been the person who figures things out. The one who finds the pattern, builds the system, solves the problem before it becomes one. Control is not just a habit for me. It is how I survived. It is how I turned a 2.0 GPA into a perfect 4.0. It is how I built everything I have from nothing.
@@ -588,6 +597,7 @@ And there is certainly no strategy for letting go of someone you were never allo
 
 
 viii.
+
 I don't know if the woman I once wrote a letter to will ever read this. Part of me hopes she does. Part of me hopes she doesn't, because I never want her to feel burdened by feelings she did not ask for. I have kept my distance. Not because my feelings faded, but because I respect her enough to let her live her life uninterrupted by mine.
 
 I have accepted that we may never be together. And I mean that. Not as a performance of maturity, but as a genuine resting place my heart has found. I don't know if what I experienced was a test of acceptance or a test of patience. In Islam, we call this sabr. The beautiful, aching discipline of trusting Allah's timing even when your own heart is screaming for an answer. Maybe He placed this longing in me to teach me that only His love is permanent. Maybe He separated my heart from hers to protect something I cannot yet see. Maybe the wait is longer than I imagined. Or maybe the destination was never her at all.
@@ -598,6 +608,7 @@ And if He does bring us together one day, in a way that honors both of us, in a 
 
 
 ix.
+
 I want to tell you about the moment that changed everything.
 
 When my father passed, I washed his body. In Islam, we wash our dead before burial. I chose to do it myself. I stood there, hands wet, looking at the body of the man who raised me, the man who worked in a factory his whole life so that I could dream bigger, and something hit me like lightning.
