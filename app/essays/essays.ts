@@ -462,7 +462,7 @@ Ich erzähle euch das nicht, weil ich Mitleid will. Sondern weil ich ehrlich sei
 
 iv.
 
-Was ich in ihrer Nähe gefühlt habe, war echt. Meine Seele hat etwas in ihrer erkannt, und genauer kann ich es nicht beschreiben. Sie ist einer der außergewöhnlichsten Menschen, die mir je begegnet sind. Daran glaube ich ohne Zweifel. Aber ich habe einen Fehler gemacht, den Leute wie ich machen.
+Was ich in ihrer Nähe gefühlt habe, war echt. Meine Seele hat etwas in ihrer erkannt, und genauer kann ich es nicht beschreiben. Sie ist einer der außergewöhnlichsten Menschen, die mir je begegnet sind. Aber ich habe einen Fehler gemacht, den Leute wie ich machen.
 
 Ich habe bis zu meinem elften Lebensjahr nicht gesprochen. Selektiver Mutismus. Das erste Jahrzehnt meines Lebens habe ich die Welt beobachtet, ohne an ihr teilzunehmen. Ich habe Menschen studiert wie Wissenschaftler Organismen studieren. Hinter Glas. Beobachten konnte ich besser als die meisten. Aber die feine Sprache sozialer Signale, die hab ich nie gelernt. Die meisten Leute lernen den Unterschied zwischen Freundlichkeit und Interesse ganz natürlich, durch Gespräche, durchs Ausprobieren, durchs Mittendrin-Sein. Ich hab alles von außen gelernt. Heute bin ich ein komplett anderer Mensch. Aber damals, mitten in der Trauer, mit dem Herzen völlig offen und schutzlos, kam das alte Muster zurück. Und als sie freundlich zu mir war, aufrichtig freundlich, konnte ich den Unterschied nicht erkennen. Ich hab Wärme mit Einladung verwechselt.
 
@@ -576,7 +576,7 @@ Liebe bedeutet nicht, jemanden zu finden. Liebe bedeutet, jemanden aufzubauen. D
 
       iv.
 
-      What I felt in her presence was real. My soul recognized something in hers, and I cannot explain it more precisely than that. She is one of the most remarkable people I have ever encountered, and I believe that fully. But I made a mistake that people like me make.
+      What I felt in her presence was real. My soul recognized something in hers, and I cannot explain it more precisely than that. She is one of the most remarkable people I have ever encountered. But I made a mistake that people like me make.
 
       I did not speak until I was eleven years old. Selective mutism. For the first decade of my life, I watched the world without participating in it. I studied people the way scientists study organisms, from behind glass. I became an expert at observing, but I never learned the subtle language of social signals the way others did. Most people learn the difference between kindness and interest naturally, through years of conversation, of trial and error, of being inside the interaction. I learned everything from the outside. I have since closed that gap in ways that would shock anyone who knew the silent boy I used to be. But back then, in that season of grief, with my defenses down and my heart wide open, the old pattern returned. And so when she was kind to me, genuinely kind, I did not have the instinct to tell the difference. I confused warmth with invitation.
 
