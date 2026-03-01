@@ -442,6 +442,10 @@ Ich werde ihren Namen nicht nennen. Ich werde sie nicht so beschreiben, dass man
 
 iii.
 
+Lass mich ehrlich sein, was die Timeline angeht, denn es ist wichtig, dass man versteht, wie absurd das hier ist.
+
+Wir haben uns drei Mal gesehen. Drei Mal. Und nur bei einem dieser Male haben wir ein richtiges Gespräch geführt. Und irgendwo zwischen dem ersten und dem dritten Mal habe ich beschlossen, dieser Frau einen handgeschriebenen Liebesbrief zu schreiben. Auf Papier. Mit Tinte. Wie ein Mann im Osmanischen Reich, der um eine Frau anhält, nachdem er sie einmal durch ein Fenster gesehen hat. Lass dir das mal durch den Kopf gehen.
+
 Beim ersten Event war sie einfach jemand im Raum. Wir haben ein paar Worte gewechselt, mehr nicht. Ich bin nach Hause gefahren und habe nicht an sie gedacht.
 
 Vor dem zweiten Event habe ich sie eingeladen. Nicht weil ich interessiert war. Ich war selbst eingeladen und wollte mich vernetzen, mehr nicht. Aber nach dem Event sind wir zusammen durch Berlin gelaufen. Kein Plan. Keine Agenda. Einfach zwei Menschen, die nachts durch die Stadt laufen. Wir landeten in einem Späti-Kebabladen, haben Pommes gegessen, und sie hat von ihrem Leben erzählt, ihrer Vision, was sie aufbaut. Und ich saß da, gegenüber von dieser Frau, in einem Dönerladen, und der einzige Gedanke in meinem Kopf war: Ich liebe sie. Einfach so. Zwischen einer Pommes und der nächsten.
@@ -462,7 +466,7 @@ Was ich in ihrer Gegenwart gefühlt habe, war echt. Meine Seele hat etwas in ihr
 
 Ich habe bis zu meinem elften Lebensjahr nicht gesprochen. Selektiver Mutismus. Das erste Jahrzehnt meines Lebens habe ich die Welt beobachtet, ohne an ihr teilzunehmen. Ich habe Menschen studiert wie Wissenschaftler Organismen studieren, von hinter einer Glasscheibe. Ich wurde ein Experte im Beobachten, aber ich habe die feine Sprache sozialer Signale nie so gelernt wie andere. Die meisten Menschen lernen den Unterschied zwischen Freundlichkeit und Interesse ganz natürlich, durch Jahre voller Gespräche, durch Versuch und Irrtum, dadurch, dass sie mittendrin sind. Ich habe alles von außen gelernt. Ich habe diese Lücke seitdem auf eine Art geschlossen, die jeden schockieren würde, der den stillen Jungen kannte, der ich einmal war. Aber damals, in dieser Phase der Trauer, mit offenen Flanken und offenem Herzen, kam das alte Muster zurück. Und als sie freundlich zu mir war, aufrichtig freundlich, hatte ich nicht den Instinkt, den Unterschied zu erkennen. Ich habe Wärme mit Einladung verwechselt.
 
-Drei Begegnungen. Ein echtes Gespräch. Und ich habe eine Kathedrale daraus gebaut. Das ist keine Liebe. Das ist ein Anfang. Und ich habe jedes Kapitel zwischen der ersten und der letzten Seite übersprungen.
+Drei Begegnungen. Ein einziges richtiges Gespräch. Und ich habe eine Kathedrale daraus gebaut. Das ist keine Liebe. Das ist ein Anfang. Und ich habe jedes Kapitel zwischen der ersten und der letzten Seite übersprungen.
 
 v.
 
@@ -531,6 +535,10 @@ It was during this period, this season of being completely unraveled, that I met
 I won't say her name. I won't describe her in ways that make her recognizable. But I will say this: Not even the best cameras in the world could capture her beauty the way my eyes did.
 
 iii.
+
+Let me be honest about the timeline here, because it is important that you understand how ridiculous this is.
+
+We met three times. Three. And only one of those times involved an actual conversation. And somewhere between the first time and the third time, I decided to write this woman a handwritten love letter. On paper. With ink. Like a man proposing in the Ottoman Empire after seeing a woman once through a window. I need you to sit with that for a moment.
 
 The first event, she was just someone in the room. We exchanged a few words, nothing more. I went home and did not think about her.
 
