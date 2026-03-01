@@ -444,7 +444,7 @@ iii.
 
 Beim ersten Event war sie einfach jemand im Raum. Wir haben ein paar Worte gewechselt, mehr nicht. Ich bin nach Hause gefahren und habe nicht an sie gedacht.
 
-Vor dem zweiten Event habe ich sie eingeladen. Nicht weil ich interessiert war. Ich war selbst eingeladen und wollte mich vernetzen, mehr nicht. Aber nach dem Event sind wir zusammen durch Berlin gelaufen. Kein Plan. Keine Agenda. Einfach zwei Menschen, die nachts durch die Stadt laufen. Wir landeten in einem Späti-Kebabladen, haben Pommes gegessen, und sie hat von ihrem Leben erzählt, ihrer Vision, was sie aufbaut. Und ich saß da, gegenüber von dieser Frau, in einem Laden mit Neonlicht, und der einzige Gedanke in meinem Kopf war: Ich liebe sie. Einfach so. Zwischen einer Pommes und der nächsten.
+Vor dem zweiten Event habe ich sie eingeladen. Nicht weil ich interessiert war. Ich war selbst eingeladen und wollte mich vernetzen, mehr nicht. Aber nach dem Event sind wir zusammen durch Berlin gelaufen. Kein Plan. Keine Agenda. Einfach zwei Menschen, die nachts durch die Stadt laufen. Wir landeten in einem Späti-Kebabladen, haben Pommes gegessen, und sie hat von ihrem Leben erzählt, ihrer Vision, was sie aufbaut. Und ich saß da, gegenüber von dieser Frau, in einem Dönerladen, und der einzige Gedanke in meinem Kopf war: Ich liebe sie. Einfach so. Zwischen einer Pommes und der nächsten.
 
 Beim dritten Event hatte ich den Brief schon geschrieben. In einer Zeit, in der Menschen ihre Gefühle per Textnachricht gestehen, die man löschen kann, per DM, die man zurücknehmen kann, habe ich mich für Tinte auf Papier entschieden. Permanent, unumkehrbar, beängstigend. Meine Hände haben gezittert, als ich ihn ihr gegeben habe. Und in diesem Moment habe ich mich verletzlicher gefühlt als jemals vor einer Kamera, einem Publikum oder einer Menschenmenge.
 
@@ -534,7 +534,7 @@ iii.
 
 The first event, she was just someone in the room. We exchanged a few words, nothing more. I went home and did not think about her.
 
-Before the second event, I invited her. Not because I was interested. I was invited myself and wanted to connect, nothing more. But after the event, we ended up walking through Berlin together. No plan. No agenda. Just two people wandering through the city at night. We ended up in a late-night kebab place, eating fries, and she was talking about her life, her vision, what she was building. And I was sitting there, across from this woman in a fluorescent-lit fast food place, and the only thought in my head was: I love her. Just like that. Between one fry and the next.
+Before the second event, I invited her. Not because I was interested. I was invited myself and wanted to connect, nothing more. But after the event, we ended up walking through Berlin together. No plan. No agenda. Just two people wandering through the city at night. We ended up in a late-night kebab place, eating fries, and she was talking about her life, her vision, what she was building. And I was sitting there, across from this woman in a fast food place, and the only thought in my head was: I love her. Just like that. Between one fry and the next.
 
 By the third event, I had already written the letter. In an age where people confess feelings through texts they can delete, through DMs they can unsend, I chose ink on paper. Permanent, irreversible, terrifying. My hands were trembling when I gave it to her. And in that moment I felt more exposed than I had ever felt in front of a camera, an audience, or a crowd.
 
