@@ -539,7 +539,7 @@ Liebe bedeutet nicht, jemanden zu finden. Liebe bedeutet, jemanden aufzubauen. D
 
       That is the summary. Here is the longer version.
 
-      I am the kind of person who treats life like a source code. I reverse-engineered my GPA from a 2.0 to a perfect 4.0. I studied mass psychology and community building the way med students study anatomy. I built a million followers before I turned nineteen. If a problem exists, I will find the pattern behind it and solve it before breakfast. But ask me what to do when a woman smiles at you, and I will just stand there, blinking, like a computer that crashed.
+      I am the kind of person who treats life like a source code. I reverse-engineered my GPA from a 3.0 to a perfect 1.0. I studied mass psychology and community building the way med students study anatomy. I built a million followers before I turned nineteen. If a problem exists, I will find the pattern behind it and solve it before breakfast. But ask me what to do when a woman smiles at you, and I will just stand there, blinking, like a computer that crashed.
 
       Emotions were the one thing I never built a system for, because I never thought I needed one.
 
