@@ -40,7 +40,7 @@ const translations: Translations = {
   "about.t3": { de: "Krebsdiagnose meines Vaters erhalten", en: "Found out my father has cancer" },
   "about.t4": { de: "1 Mio Follower geknackt", en: "Hit 1 million followers" },
   "about.t5": { de: "Angefangen, Videos zu posten", en: "Started posting videos" },
-  "about.t6": { de: "1,0er Durchschnitt erreicht", en: "Achieved a 4.0 GPA equivalent" },
+  "about.t6": { de: "1,0er Durchschnitt erreicht", en: "Achieved a perfect GPA of1.0" },
   "about.t7": { de: "Side Quests pausiert & auf Schule fokussiert", en: "Paused side quests & focused on school" },
   "about.t8": { de: "Wollte Biotech Company starten", en: "Wanted to start a biotech company" },
   "about.t9": { de: "Eigenes Jump & Run Game programmiert", en: "Programmed my own jump & run game" },
