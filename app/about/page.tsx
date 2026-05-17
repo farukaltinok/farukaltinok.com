@@ -1,12 +1,19 @@
 "use client";
 
+import { type ReactNode } from "react";
 import TypewriterGoals from "../components/TypewriterGoals";
 import { useLang } from "../components/LanguageContext";
 
 export default function About() {
   const { t } = useLang();
 
-  const timeline = [
+  const timeline: Array<{
+    date: string;
+    key: string;
+    link?: { match: string; href: string };
+  }> = [
+    { date: "10.05.26", key: "about.t13", link: { match: "The Residency", href: "https://www.livetheresidency.com/" } },
+    { date: "06.04.26", key: "about.t14" },
     { date: "10.02.26", key: "about.t0" },
     { date: "16.10.25", key: "about.t1" },
     { date: "16.07.23", key: "about.t3" },
@@ -34,12 +41,30 @@ export default function About() {
           />
         </div>
 
-        {timeline.map((item) => (
-          <div key={item.date} className="timelineRow">
-            <span className="timelineDate">{item.date}</span>
-            <span className="timelineText">{t(item.key)}</span>
-          </div>
-        ))}
+        {timeline.map((item) => {
+          const text = t(item.key);
+          let content: ReactNode = text;
+
+          if (item.link && text.includes(item.link.match)) {
+            const [before, after] = text.split(item.link.match);
+            content = (
+              <>
+                {before}
+                <a href={item.link.href} target="_blank" rel="noopener noreferrer">
+                  {item.link.match}
+                </a>
+                {after}
+              </>
+            );
+          }
+
+          return (
+            <div key={item.date} className="timelineRow">
+              <span className="timelineDate">{item.date}</span>
+              <span className="timelineText">{content}</span>
+            </div>
+          );
+        })}
       </section>
     </main>
   );
