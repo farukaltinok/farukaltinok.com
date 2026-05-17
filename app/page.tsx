@@ -28,7 +28,7 @@ export default function Home() {
           "Content mit Disney und LEGO erstellt.",
           "Aktuell schaue ich, woran ich 2026 bauen will.",
           "Mein Ziel ist, Mama in 3 Jahren zu retiren.",
-          "kontakt@farukaltinok.com",
+          "faruk@sesim.de",
           "LG Faruk",
         ]
       : [
@@ -37,7 +37,7 @@ export default function Home() {
           "Created content with Disney and LEGO.",
           "Currently figuring out what to build in 2026.",
           "My goal is to retire my mom in 3 years.",
-          "kontakt@farukaltinok.com",
+          "faruk@sesim.de",
           "Best, Faruk",
         ];
 

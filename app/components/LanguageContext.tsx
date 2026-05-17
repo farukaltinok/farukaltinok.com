@@ -18,7 +18,7 @@ const translations: Translations = {
   "home.4": { de: "Aktuell evaluiere ich, woran ich 2026 bauen möchte.", en: "Currently figuring out what to build in 2026." },
   "home.5": { de: "Mein Ziel ist es, Mama in 3 Jahren zu retiren.", en: "My goal is to retire my mom in 3 years." },
   "home.6": { de: "Meine Mission ist es, die Welt zu verstehen und zu verbessern.", en: "My mission is to understand and improve the world." },
-  "home.7": { de: "kontakt@farukaltinok.com", en: "kontakt@farukaltinok.com" },
+  "home.7": { de: "faruk@sesim.de", en: "faruk@sesim.de" },
   "home.8": { de: "LG Faruk", en: "Best, Faruk" },
 
   // Essays

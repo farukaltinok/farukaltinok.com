@@ -51,7 +51,7 @@ const SOCIALS: Social[] = [
   { label: "Instagram", href: "https://www.instagram.com/farukaltiinok", icon: <IconInstagram /> },
   { label: "YouTube", href: "https://www.youtube.com/@farukaltinok", icon: <IconYouTube /> },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/farukaltinok", icon: <IconLinkedIn /> },
-  { label: "Mail", href: "mailto:kontakt@farukaltinok.com", icon: <IconMail /> },
+  { label: "Mail", href: "mailto:faruk@sesim.de", icon: <IconMail /> },
 ];
 
 export default function LinksPage() {
