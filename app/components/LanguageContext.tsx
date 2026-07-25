@@ -9,7 +9,6 @@ type Translations = Record<string, Record<Lang, string>>;
 const translations: Translations = {
   // NavBar
   "nav.about": { de: "About me", en: "About me" },
-  "nav.essays": { de: "Essays", en: "Essays" },
 
   // Home
   "home.1": { de: "Ich erzähle Stories und baue Dinge.", en: "I tell stories and build things." },
@@ -20,10 +19,6 @@ const translations: Translations = {
   "home.6": { de: "Meine Mission ist es, die Welt zu verstehen und zu verbessern.", en: "My mission is to understand and improve the world." },
   "home.7": { de: "faruk@sesim.de", en: "faruk@sesim.de" },
   "home.8": { de: "LG Faruk", en: "Best, Faruk" },
-
-  // Essays
-  "essays.comingSoon": { de: "Kommt bald.", en: "Coming soon." },
-  "essays.back": { de: "← Essays", en: "← Essays" },
 
   // Footer
   "footer.impressum": { de: "Impressum", en: "Imprint" },

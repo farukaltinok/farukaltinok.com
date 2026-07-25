@@ -20,10 +20,6 @@ export default function NavBar() {
           {t("nav.about")}
         </Link>
 
-        <Link href="/essays" aria-current={pathname.startsWith("/essays") ? "page" : undefined}>
-          {t("nav.essays")}
-        </Link>
-
         <LanguageToggle />
       </nav>
     </header>
