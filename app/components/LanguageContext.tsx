@@ -44,6 +44,7 @@ const translations: Translations = {
   "about.t12": { de: "Geboren in Köln, um 18:32 Uhr", en: "Born in Cologne, at 6:32 PM" },
   "about.t13": { de: "In The Residency eingezogen", en: "Joined The Residency" },
   "about.t14": { de: "Boys Trip nach Thailand", en: "Boys Trip to Thailand" },
+  "about.t15": { de: "28 Tage Hustle Villa auf Bali", en: "28 days at Hustle Villa in Bali" },
 
   // Impressum
   "impressum.title1": { de: "Angaben gemäß §5 DDG", en: "Information according to §5 DDG" },
