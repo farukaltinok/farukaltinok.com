@@ -12,7 +12,8 @@ export default function About() {
     key: string;
     link?: { match: string; href: string };
   }> = [
-    { date: "31.08.26", key: "about.t15" },
+    { date: "26.09.26", key: "about.t16", link: { match: "Parua", href: "https://www.instagram.com/parua.e" } },
+    { date: "07.09.26", key: "about.t15" },
     { date: "10.05.26", key: "about.t13", link: { match: "The Residency", href: "https://www.livetheresidency.com/" } },
     { date: "06.04.26", key: "about.t14" },
     { date: "10.02.26", key: "about.t0" },
