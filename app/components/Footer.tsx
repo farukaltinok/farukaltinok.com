@@ -8,7 +8,7 @@ import ThemeToggle from "./ThemeToggle";
 function formatTime(d: Date, city: string, lang: string) {
   if (lang === "de") {
     const parts = new Intl.DateTimeFormat("de-DE", {
-      timeZone: "Asia/Kuala_Lumpur",
+      timeZone: "Asia/Riyadh",
       hour: "2-digit",
       minute: "2-digit",
       second: "2-digit",
@@ -20,7 +20,7 @@ function formatTime(d: Date, city: string, lang: string) {
   }
 
   const parts = new Intl.DateTimeFormat("en-US", {
-    timeZone: "Asia/Kuala_Lumpur",
+    timeZone: "Asia/Riyadh",
     hour: "2-digit",
     minute: "2-digit",
     second: "2-digit",
@@ -40,7 +40,10 @@ export default function Footer() {
     return () => clearInterval(id);
   }, []);
 
-  const city = "Malaysia";
+  // Medina until Friday, 16 Oct 2026, 22:00 Asia/Riyadh (UTC+3), then Mecca.
+  const switchToMecca = Date.UTC(2026, 9, 16, 19, 0, 0);
+  const city =
+    now.getTime() < switchToMecca ? "Medina" : lang === "de" ? "Mekka" : "Mecca";
   const stamp = useMemo(() => formatTime(now, city, lang), [now, city, lang]);
 
   return (
