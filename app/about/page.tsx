@@ -22,7 +22,6 @@ export default function About() {
     { date: "14.07.22", key: "about.t4" },
     { date: "13.12.19", key: "about.t5" },
     { date: "12.07.19", key: "about.t6" },
-    { date: "12.08.15", key: "about.t7" },
     { date: "18.07.15", key: "about.t8" },
     { date: "11.08.14", key: "about.t9" },
     { date: "28.12.13", key: "about.t10" },
