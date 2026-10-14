@@ -32,7 +32,7 @@ const translations: Translations = {
   "about.t0": { de: "Mein Vater ist verstorben", en: "My father passed away" },
   "about.t1": { de: "Unter Shaolin Mönchen in China gelebt", en: "Lived among Shaolin monks in China" },
   "about.t2": { de: "Palutens Nummer geklärt (mein größter Flex)", en: "Got Paluten's number (my biggest flex)" },
-  "about.t3": { de: "Krebsdiagnose meines Vaters erhalten", en: "Found out my father has cancer" },
+  "about.t3": { de: "Krebsdiagnose meines Vaters mitbekommen", en: "Found out my father has cancer" },
   "about.t4": { de: "1 Mio Follower geknackt", en: "Hit 1 million followers" },
   "about.t5": { de: "Angefangen, Videos zu posten", en: "Started posting videos" },
   "about.t6": { de: "1,0er Durchschnitt erreicht", en: "Achieved a perfect GPA of 1.0 (best being 1.0)" },
