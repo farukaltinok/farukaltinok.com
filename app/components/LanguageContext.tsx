@@ -14,7 +14,7 @@ const translations: Translations = {
   "home.1": { de: "Ich erzähle Stories und baue Dinge.", en: "I tell stories and build things." },
   "home.2": { de: "y/o Deutsch-Türke. Geboren in Köln.", en: "y/o Turkish-German. Born and raised in Cologne." },
   "home.3": { de: "Kumuliert über 2 Mio Follower aufgebaut.", en: "Combined, I've grown over 2 million followers." },
-  "home.4": { de: "Aktuell evaluiere ich, woran ich 2026 bauen möchte.", en: "Currently figuring out what to build in 2026." },
+  "home.4": { de: "Aktuell reise ich um die Welt", en: "Currently traveling the world" },
   "home.5": { de: "Mein Ziel ist es, Mama in 3 Jahren zu retiren.", en: "My goal is to retire my mom in 3 years." },
   "home.6": { de: "Meine Mission ist es, die Welt zu verstehen und zu verbessern.", en: "My mission is to understand and improve the world." },
   "home.7": { de: "faruk@sesim.de", en: "faruk@sesim.de" },
@@ -26,7 +26,7 @@ const translations: Translations = {
   // About / TypewriterGoals
   "about.goal1": { de: "Mama in 3 Jahren retiren", en: "Retire mom in 3 years" },
   "about.goal2": { de: "Road to 100K€ im Monat", en: "Road to 100K€ per month" },
-  "about.goal3": { de: "Reise in die Arktis planen", en: "Plan a trip to the Arctic" },
+  "about.goal3": { de: "Allahs Wohlgefallen erlangen", en: "Earn Allah's pleasure" },
 
   // About / Timeline
   "about.t0": { de: "Mein Vater ist verstorben", en: "My father passed away" },
@@ -35,7 +35,7 @@ const translations: Translations = {
   "about.t3": { de: "Krebsdiagnose meines Vaters mitbekommen", en: "Found out my father has cancer" },
   "about.t4": { de: "1 Mio Follower geknackt", en: "Hit 1 million followers" },
   "about.t5": { de: "Angefangen, Videos zu posten", en: "Started posting videos" },
-  "about.t6": { de: "1,0er Durchschnitt erreicht", en: "Achieved a perfect GPA of 1.0 (best being 1.0)" },
+  "about.t6": { de: "1,0er Notenschnitt erreicht", en: "Got a 1.0 GPA (best being 1.0)" },
   "about.t8": { de: "Wollte Biotech Company starten", en: "Wanted to start a biotech company" },
   "about.t9": { de: "Eigenes Jump & Run Game programmiert", en: "Programmed my own jump & run game" },
   "about.t10": { de: "Versucht ein Magnetmotor zu bauen", en: "Tried to build a magnetic motor" },
