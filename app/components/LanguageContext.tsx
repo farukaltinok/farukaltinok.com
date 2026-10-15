@@ -45,6 +45,7 @@ const translations: Translations = {
   "about.t14": { de: "Boys Trip nach Thailand", en: "Boys Trip to Thailand" },
   "about.t15": { de: "21 Tage Monk Mode auf Bali mit 20 Gründern", en: "21 days of monk mode in Bali with 20 founders" },
   "about.t16": { de: "Prägende Impulse von Parua bekommen", en: "Got formative input from Parua" },
+  "about.t17": { de: "Pilgerfahrt nach Mekka", en: "Pilgrimage to Mecca" },
 
   // Impressum
   "impressum.title1": { de: "Angaben gemäß §5 DDG", en: "Information according to §5 DDG" },
