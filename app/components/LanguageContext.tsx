@@ -43,7 +43,7 @@ const translations: Translations = {
   "about.t12": { de: "Geboren in Köln, um 18:32 Uhr", en: "Born in Cologne, at 6:32 PM" },
   "about.t13": { de: "In The Residency eingezogen", en: "Joined The Residency" },
   "about.t14": { de: "Boys Trip nach Thailand", en: "Boys Trip to Thailand" },
-  "about.t15": { de: "21 Tage Monk Mode auf Bali mit 20 Gründern", en: "21 days of monk mode in Bali with 20 founders" },
+  "about.t15": { de: "21 Tage auf Bali mit 20 Gründern", en: "21 days in Bali with 20 founders" },
   "about.t16": { de: "Prägende Impulse von Parua bekommen", en: "Got formative input from Parua" },
   "about.t17": { de: "Pilgerfahrt nach Mekka", en: "Pilgrimage to Mecca" },
   "about.t18": { de: "Pilgerfahrt nach Mekka", en: "Pilgrimage to Mecca" },
