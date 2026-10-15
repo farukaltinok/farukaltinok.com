@@ -279,7 +279,7 @@
 
   /* =========================
      TIMELINE HIGHLIGHT
-     (gradient words + twinkling sparks)
+     (static gradient words + sparks)
      ========================= */
 
   /* let the sparks poke out of the row */
@@ -288,13 +288,16 @@
     text-overflow: clip;
   }
 
+  /* dark mode (default): lavender to white */
   .words {
     position: relative;
     display: inline-block;
     width: fit-content;
+    --spark: #ffffff;
+    --dust: #b7a8ff;
+    --glow: rgba(255, 255, 255, 0.6);
   }
 
-  /* dark mode (default): lavender to white */
   .words__t {
     font-weight: 600;
     letter-spacing: 0.004em;
@@ -306,6 +309,12 @@
   }
 
   /* light mode: dawn */
+  [data-theme="light"] .words {
+    --spark: #f2b53a;
+    --dust: #e07aa8;
+    --glow: rgba(242, 181, 58, 0.55);
+  }
+
   [data-theme="light"] .words__t {
     font-weight: 700;
     background: linear-gradient(110deg, #f4a23a 0%, #f2745f 28%, #e07aa8 52%, #8d7df0 76%, #4a9ee8 100%);
@@ -313,35 +322,51 @@
     background-clip: text;
   }
 
-  .words .spark {
+  .spark {
     position: absolute;
-    fill: #ffffff;
     opacity: 0;
+    transform-box: fill-box;
     transform-origin: center;
+    will-change: transform, opacity;
     pointer-events: none;
-    animation: spark 6s ease-in-out infinite;
   }
 
-  [data-theme="light"] .words .spark {
-    fill: #f2b53a;
+  /* three hero sparks: wave left -> right every 7s */
+  .spark.hero {
+    fill: var(--spark);
+    filter: drop-shadow(0 0 2px var(--glow));
+    animation: hero 7s linear infinite;
+  }
+  .spark.a { top: -9px; left: -12px; width: 11px; height: 11px; animation-delay: 0s; }
+  .spark.c { top: -8px; left: 54%; width: 7px; height: 7px; animation-delay: 0.45s; }
+  .spark.b { right: -14px; bottom: -3px; width: 9px; height: 9px; animation-delay: 0.9s; }
+
+  /* two dust points: breathe in between */
+  .spark.dust {
+    fill: var(--dust);
+    animation: dust 3.4s ease-in-out infinite;
+  }
+  .spark.d { top: -2px; right: 22%; width: 3px; height: 3px; animation-delay: -1s; }
+  .spark.e { bottom: -5px; left: 30%; width: 2.5px; height: 2.5px; animation-duration: 4.6s; animation-delay: -2.3s; }
+
+  @keyframes hero {
+    0%   { opacity: 0;    transform: translateY(2px)  scale(0)    rotate(-50deg); animation-timing-function: cubic-bezier(0.2, 1.5, 0.4, 1); }
+    6%   { opacity: 1;    transform: translateY(0)    scale(1.15) rotate(0deg);   animation-timing-function: ease-in-out; }
+    11%  { opacity: 1;    transform: translateY(0)    scale(0.92) rotate(12deg);  animation-timing-function: ease-in-out; }
+    17%  { opacity: 0.95; transform: translateY(-1px) scale(1.05) rotate(22deg);  animation-timing-function: cubic-bezier(0.5, 0, 0.8, 0.4); }
+    27%  { opacity: 0;    transform: translateY(-4px) scale(0.3)  rotate(70deg); }
+    100% { opacity: 0;    transform: translateY(-4px) scale(0.3)  rotate(70deg); }
   }
 
-  /* sized for the 11.5px timeline text */
-  .words .spark.a { top: -6px; left: -9px; width: 7px; height: 7px; }
-  .words .spark.b { right: -10px; bottom: -1px; width: 6px; height: 6px; animation-delay: -2.6s; animation-duration: 7.5s; }
-  .words .spark.c { top: -4px; right: 34%; width: 4.5px; height: 4.5px; animation-delay: -4.1s; animation-duration: 5.2s; }
-
-  @keyframes spark {
-    0%, 100% { opacity: 0; transform: scale(0.4) rotate(0deg); }
-    50% { opacity: 0.95; transform: scale(1) rotate(45deg); }
+  @keyframes dust {
+    0%, 100% { opacity: 0;   transform: scale(0.5); }
+    50%      { opacity: 0.8; transform: scale(1); }
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .words .spark {
-      animation: none;
-      opacity: 0.8;
-      transform: rotate(45deg);
-    }
+    .spark { animation: none; }
+    .spark.hero { opacity: 0.7; transform: none; }
+    .spark.dust { opacity: 0; }
   }
 
   /* =========================
