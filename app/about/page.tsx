@@ -39,9 +39,9 @@ export default function About() {
         <div className="timelineRow">
           <TypewriterGoals
             goals={[
-              t("about.goal1"),
-              t("about.goal2"),
               t("about.goal3"),
+              t("about.goal2"),
+              t("about.goal1"),
             ]}
           />
         </div>
