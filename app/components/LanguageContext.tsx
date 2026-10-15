@@ -8,13 +8,13 @@ type Translations = Record<string, Record<Lang, string>>;
 
 const translations: Translations = {
   // NavBar
-  "nav.about": { de: "About me", en: "About me" },
+  "nav.about": { de: "Über mich", en: "About me" },
 
   // Home
   "home.1": { de: "Ich erzähle Stories und baue Dinge.", en: "I tell stories and build things." },
   "home.2": { de: "y/o Deutsch-Türke. Geboren in Köln.", en: "y/o Turkish-German. Born and raised in Cologne." },
   "home.3": { de: "Kumuliert über 2 Mio Follower aufgebaut.", en: "Combined, I've grown over 2 million followers." },
-  "home.4": { de: "Aktuell reise ich um die Welt", en: "Currently traveling the world" },
+  "home.4": { de: "Aktuell reise ich um die Welt.", en: "Currently traveling the world." },
   "home.5": { de: "Mein Ziel ist es, Mama in 3 Jahren zu retiren.", en: "My goal is to retire my mom in 3 years." },
   "home.6": { de: "Meine Mission ist es, die Welt zu verstehen und zu verbessern.", en: "My mission is to understand and improve the world." },
   "home.7": { de: "faruk@sesim.de", en: "faruk@sesim.de" },
