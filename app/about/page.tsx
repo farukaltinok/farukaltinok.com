@@ -2,6 +2,7 @@
 
 import { type ReactNode } from "react";
 import TypewriterGoals from "../components/TypewriterGoals";
+import HighlightWords from "../components/HighlightWords";
 import { useLang } from "../components/LanguageContext";
 
 export default function About() {
@@ -11,8 +12,9 @@ export default function About() {
     date: string;
     key: string;
     link?: { match: string; href: string };
+    highlight?: boolean;
   }> = [
-    { date: "15.10.26", key: "about.t17" },
+    { date: "15.10.26", key: "about.t17", highlight: true },
     { date: "26.09.26", key: "about.t16", link: { match: "Parua", href: "https://www.instagram.com/parua.e" } },
     { date: "07.09.26", key: "about.t15" },
     { date: "10.05.26", key: "about.t13", link: { match: "The Residency", href: "https://www.livetheresidency.com/" } },
@@ -60,10 +62,16 @@ export default function About() {
             );
           }
 
+          if (item.highlight) {
+            content = <HighlightWords>{content}</HighlightWords>;
+          }
+
           return (
             <div key={item.date} className="timelineRow">
               <span className="timelineDate">{item.date}</span>
-              <span className="timelineText">{content}</span>
+              <span className={item.highlight ? "timelineText timelineText--highlight" : "timelineText"}>
+                {content}
+              </span>
             </div>
           );
         })}
