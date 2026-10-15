@@ -26,7 +26,7 @@ const translations: Translations = {
   // About / TypewriterGoals
   "about.goal1": { de: "Mama in 3 Jahren retiren", en: "Retire mom in 3 years" },
   "about.goal2": { de: "Road to 100K€ im Monat", en: "Road to 100K€ per month" },
-  "about.goal3": { de: "Allahs Wohlgefallen erlangen", en: "Earn Allah's pleasure" },
+  "about.goal3": { de: "Ein erfülltes Leben führen", en: "Live a fulfilling life" },
 
   // About / Timeline
   "about.t0": { de: "Mein Vater ist verstorben", en: "My father passed away" },
