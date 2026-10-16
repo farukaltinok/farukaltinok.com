@@ -40,10 +40,7 @@ export default function Footer() {
     return () => clearInterval(id);
   }, []);
 
-  // Medina until Friday, 16 Oct 2026, 22:00 Asia/Riyadh (UTC+3), then Mecca.
-  const switchToMecca = Date.UTC(2026, 9, 16, 19, 0, 0);
-  const city =
-    now.getTime() < switchToMecca ? "Medina" : lang === "de" ? "Mekka" : "Mecca";
+  const city = lang === "de" ? "Mekka" : "Mecca";
   const stamp = useMemo(() => formatTime(now, city, lang), [now, city, lang]);
 
   return (
