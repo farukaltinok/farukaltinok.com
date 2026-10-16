@@ -15,7 +15,7 @@ const translations: Translations = {
   "home.2": { de: "y/o Deutsch-Türke. Geboren in Köln.", en: "y/o Turkish-German. Born and raised in Cologne." },
   "home.3": { de: "Kumuliert über 2 Mio Follower aufgebaut.", en: "Combined, I've grown over 2 million followers." },
   "home.4": { de: "Aktuell reise ich um die Welt.", en: "Currently traveling the world." },
-  "home.5": { de: "Mein Ziel ist es, Mama in 3 Jahren zu retiren.", en: "My goal is to retire my mom in 3 years." },
+  "home.5": { de: "Mein Ziel ist es, Mama zu retiren.", en: "My goal is to retire my mom." },
   "home.6": { de: "Meine Mission ist es, die Welt zu verstehen und zu verbessern.", en: "My mission is to understand and improve the world." },
   "home.7": { de: "faruk@sesim.de", en: "faruk@sesim.de" },
   "home.8": { de: "LG Faruk", en: "Best, Faruk" },
@@ -24,7 +24,7 @@ const translations: Translations = {
   "footer.impressum": { de: "Impressum", en: "Imprint" },
 
   // About / TypewriterGoals
-  "about.goal1": { de: "Mama in 3 Jahren retiren", en: "Retire mom in 3 years" },
+  "about.goal1": { de: "Mama retiren", en: "Retire mom" },
   "about.goal2": { de: "Road to 100K€ im Monat", en: "Road to 100K€ per month" },
   "about.goal3": { de: "Ein erfülltes Leben führen", en: "Live a fulfilling life" },
 

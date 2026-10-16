@@ -27,7 +27,7 @@ export default function Home() {
           "Kumuliert über 2 mio Follower aufgebaut.",
           "Content mit Disney und LEGO erstellt.",
           "Aktuell reise ich um die Welt.",
-          "Mein Ziel ist, Mama in 3 Jahren zu retiren.",
+          "Mein Ziel ist, Mama zu retiren.",
           "faruk@sesim.de",
           "LG Faruk",
         ]
@@ -36,7 +36,7 @@ export default function Home() {
           "Combined, I've grown 2 mio followers.",
           "Created content with Disney and LEGO.",
           "Currently traveling the world.",
-          "My goal is to retire my mom in 3 years.",
+          "My goal is to retire my mom.",
           "faruk@sesim.de",
           "Best, Faruk",
         ];
