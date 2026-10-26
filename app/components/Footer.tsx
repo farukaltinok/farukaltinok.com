@@ -8,7 +8,7 @@ import ThemeToggle from "./ThemeToggle";
 function formatTime(d: Date, city: string, lang: string) {
   if (lang === "de") {
     const parts = new Intl.DateTimeFormat("de-DE", {
-      timeZone: "Asia/Riyadh",
+      timeZone: "Europe/Rome",
       hour: "2-digit",
       minute: "2-digit",
       second: "2-digit",
@@ -20,7 +20,7 @@ function formatTime(d: Date, city: string, lang: string) {
   }
 
   const parts = new Intl.DateTimeFormat("en-US", {
-    timeZone: "Asia/Riyadh",
+    timeZone: "Europe/Rome",
     hour: "2-digit",
     minute: "2-digit",
     second: "2-digit",
@@ -40,7 +40,7 @@ export default function Footer() {
     return () => clearInterval(id);
   }, []);
 
-  const city = "Medina";
+  const city = "Palermo";
   const stamp = useMemo(() => formatTime(now, city, lang), [now, city, lang]);
 
   return (
