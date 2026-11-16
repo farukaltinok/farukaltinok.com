@@ -40,7 +40,7 @@ export default function Footer() {
     return () => clearInterval(id);
   }, []);
 
-  const city = "Wien";
+  const city = lang === "de" ? "Wien" : "Vienna";
   const stamp = useMemo(() => formatTime(now, city, lang), [now, city, lang]);
 
   return (
