@@ -5,6 +5,14 @@ import { useEffect, useMemo, useState } from "react";
 import { useLang } from "./LanguageContext";
 import ThemeToggle from "./ThemeToggle";
 
+const SOCIAL_LINKS = [
+  { label: "IN", name: "LinkedIn", href: "https://www.linkedin.com/in/farukaltinok" },
+  { label: "IG", name: "Instagram", href: "https://www.instagram.com/farukaltiinok/" },
+  { label: "TT", name: "TikTok", href: "https://www.tiktok.com/@farukaltiinok" },
+  { label: "YT", name: "YouTube", href: "https://www.youtube.com/@farukaltinok" },
+  { label: "SC", name: "Snapchat", href: "https://www.snapchat.com/add/faruk.altinok" },
+];
+
 function formatTime(d: Date, city: string, lang: string) {
   if (lang === "de") {
     const parts = new Intl.DateTimeFormat("de-DE", {
@@ -52,22 +60,18 @@ export default function Footer() {
 
         <div className="site-footerRight">
           <div className="site-footerLinks">
-            <a
-              href="https://www.linkedin.com/in/farukaltinok"
-              target="_blank"
-              rel="noreferrer"
-              className="site-footerLink"
-            >
-              IN
-            </a>
-            <a
-              href="https://www.instagram.com/farukaltiinok"
-              target="_blank"
-              rel="noreferrer"
-              className="site-footerLink"
-            >
-              IG
-            </a>
+            {SOCIAL_LINKS.map(({ label, name, href }) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="me noopener"
+                aria-label={name}
+                className="site-footerLink"
+              >
+                {label}
+              </a>
+            ))}
           </div>
 
           <div className="site-footerMeta">{stamp}</div>
