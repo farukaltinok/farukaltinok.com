@@ -77,7 +77,7 @@ export default function LinksPage() {
                   href={s.href}
                   aria-label={s.label}
                   target={isMail ? undefined : "_blank"}
-                  rel={isMail ? undefined : "noreferrer"}
+                  rel={isMail ? undefined : "me noopener"}
                 >
                   {s.icon}
                 </a>
