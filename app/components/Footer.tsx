@@ -8,9 +8,6 @@ import ThemeToggle from "./ThemeToggle";
 const SOCIAL_LINKS = [
   { label: "IN", name: "LinkedIn", href: "https://www.linkedin.com/in/farukaltinok" },
   { label: "IG", name: "Instagram", href: "https://www.instagram.com/farukaltiinok/" },
-  { label: "TT", name: "TikTok", href: "https://www.tiktok.com/@farukaltiinok" },
-  { label: "YT", name: "YouTube", href: "https://www.youtube.com/@farukaltinok" },
-  { label: "SC", name: "Snapchat", href: "https://www.snapchat.com/add/faruk.altinok" },
 ];
 
 function formatTime(d: Date, city: string, lang: string) {

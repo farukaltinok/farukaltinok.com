@@ -748,12 +748,7 @@
     }
   
     .navLinks { gap: 18px; }
-
-    /* Five social links: tighter spacing on phones; wrap instead of overflowing on very narrow screens */
-    .site-footerInner { flex-wrap: wrap; gap: 10px 12px; }
-    .site-footerRight { gap: 12px; }
-    .site-footerLinks { gap: 12px; }
-
+  
     .timelineRow,
     .liveLine {
       grid-template-columns: 1fr;
