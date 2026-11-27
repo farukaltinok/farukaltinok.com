@@ -1,4 +1,4 @@
-// app/go/[dest]/page.tsx
+// app/(en)/go/[dest]/page.tsx
 import { redirect } from "next/navigation";
 
 const LINKS: Record<string, string> = {
@@ -8,8 +8,16 @@ const LINKS: Record<string, string> = {
   tiktok: "https://www.tiktok.com/@farukaltiinok",
 };
 
-export default function GoPage({ params }: { params: { dest: string } }) {
-  const url = LINKS[params.dest];
+export default async function GoPage({
+  params,
+}: {
+  // Since Next 15 params is a Promise. Read without await, dest was always
+  // undefined and every link fell through to /links.
+  params: Promise<{ dest: string }>;
+}) {
+  const { dest } = await params;
+  // hasOwn keeps inherited keys like "constructor" from counting as a link.
+  const url = Object.hasOwn(LINKS, dest) ? LINKS[dest] : undefined;
 
   // unknown -> back to links
   if (!url) redirect("/links");
