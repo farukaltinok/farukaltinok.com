@@ -1,8 +1,9 @@
 "use client";
 
-import { createContext, useContext, useEffect, useState, useCallback, type ReactNode } from "react";
+import { createContext, useContext, useCallback, useMemo, type ReactNode } from "react";
+import type { Lang } from "../lib/site";
 
-export type Lang = "de" | "en";
+export type { Lang };
 
 type Translations = Record<string, Record<Lang, string>>;
 
@@ -55,29 +56,16 @@ const translations: Translations = {
 
 type LanguageContextType = {
   lang: Lang;
-  setLang: (lang: Lang) => void;
   t: (key: string) => string;
 };
 
 const LanguageContext = createContext<LanguageContextType | null>(null);
 
-const STORAGE_KEY = "lang";
-
-export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [lang, setLangState] = useState<Lang>("en");
-
-  useEffect(() => {
-    const saved = localStorage.getItem(STORAGE_KEY) as Lang | null;
-    if (saved === "de" || saved === "en") {
-      setLangState(saved);
-    }
-  }, []);
-
-  const setLang = useCallback((newLang: Lang) => {
-    setLangState(newLang);
-    localStorage.setItem(STORAGE_KEY, newLang);
-  }, []);
-
+/**
+ * The language is fixed by the route (/ is English, /de is German) and
+ * passed in by the root layout, so the server renders the right text.
+ */
+export function LanguageProvider({ lang, children }: { lang: Lang; children: ReactNode }) {
   const t = useCallback(
     (key: string): string => {
       return translations[key]?.[lang] ?? key;
@@ -85,8 +73,10 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     [lang]
   );
 
+  const value = useMemo(() => ({ lang, t }), [lang, t]);
+
   return (
-    <LanguageContext.Provider value={{ lang, setLang, t }}>
+    <LanguageContext.Provider value={value}>
       {children}
     </LanguageContext.Provider>
   );

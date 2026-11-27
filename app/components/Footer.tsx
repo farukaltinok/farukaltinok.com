@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { useLang } from "./LanguageContext";
 import ThemeToggle from "./ThemeToggle";
+import { localizedPath } from "../lib/site";
 
 const SOCIAL_LINKS = [
   { label: "IN", name: "LinkedIn", href: "https://www.linkedin.com/in/farukaltinok" },
@@ -51,7 +52,7 @@ export default function Footer() {
   return (
     <footer className="site-footer" aria-label="Footer">
       <div className="site-footerInner">
-        <Link href="/impressum" className="site-footerLeftLink">
+        <Link href={localizedPath("/impressum", lang)} className="site-footerLeftLink">
           {t("footer.impressum")}
         </Link>
 

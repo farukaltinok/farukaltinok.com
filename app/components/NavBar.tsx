@@ -4,19 +4,21 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import LanguageToggle from "./LanguageToggle";
 import { useLang } from "./LanguageContext";
+import { localizedPath } from "../lib/site";
 
 export default function NavBar() {
   const pathname = usePathname();
-  const { t } = useLang();
+  const { lang, t } = useLang();
+  const aboutHref = localizedPath("/about", lang);
 
   return (
     <header className="site-nav">
-      <Link href="/" className="site-logo">
+      <Link href={localizedPath("/", lang)} className="site-logo">
         Faruk Altinok
       </Link>
 
       <nav className="navLinks" aria-label="Primary">
-        <Link href="/about" aria-current={pathname === "/about" ? "page" : undefined}>
+        <Link href={aboutHref} aria-current={pathname === aboutHref ? "page" : undefined}>
           {t("nav.about")}
         </Link>
 

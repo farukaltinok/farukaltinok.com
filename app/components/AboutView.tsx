@@ -1,11 +1,11 @@
 "use client";
 
 import { type ReactNode } from "react";
-import TypewriterGoals from "../components/TypewriterGoals";
-import HighlightWords from "../components/HighlightWords";
-import { useLang } from "../components/LanguageContext";
+import TypewriterGoals from "./TypewriterGoals";
+import HighlightWords from "./HighlightWords";
+import { useLang } from "./LanguageContext";
 
-export default function About() {
+export default function AboutView() {
   const { t } = useLang();
 
   const timeline: Array<{
