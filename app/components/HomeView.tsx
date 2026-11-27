@@ -1,8 +1,8 @@
 "use client";
 
 import { useMemo } from "react";
-import { useLang } from "./components/LanguageContext";
-import TypewriterOnce from "./components/TypewriterOnce";
+import { useLang } from "./LanguageContext";
+import TypewriterOnce from "./TypewriterOnce";
 
 function getAge(birthday: Date): number {
   const today = new Date();
@@ -14,7 +14,7 @@ function getAge(birthday: Date): number {
   return age;
 }
 
-export default function Home() {
+export default function HomeView() {
   const { lang, t } = useLang();
   const age = useMemo(() => getAge(new Date(2002, 10, 14)), []); // 14. November 2002
 

@@ -1,19 +1,25 @@
 "use client";
 
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useLang } from "./LanguageContext";
+import { alternatePath } from "../lib/site";
 
 export default function LanguageToggle() {
-  const { lang, setLang } = useLang();
+  const { lang } = useLang();
+  const pathname = usePathname();
+  const target = lang === "de" ? "en" : "de";
+  const label = lang === "de" ? "Switch to English" : "Auf Deutsch wechseln";
 
   return (
-    <button
-      type="button"
-      onClick={() => setLang(lang === "de" ? "en" : "de")}
+    <Link
+      href={alternatePath(pathname, target)}
+      hrefLang={target}
       className="langToggle"
-      aria-label={lang === "de" ? "Switch to English" : "Auf Deutsch wechseln"}
-      title={lang === "de" ? "Switch to English" : "Auf Deutsch wechseln"}
+      aria-label={label}
+      title={label}
     >
       {lang === "de" ? "🇺🇸" : "🇩🇪"}
-    </button>
+    </Link>
   );
 }

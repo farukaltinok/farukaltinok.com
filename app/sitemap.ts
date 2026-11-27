@@ -1,6 +1,5 @@
 import type { MetadataRoute } from "next";
-
-const SITE_URL = "https://farukaltinok.com";
+import { SITE_URL } from "./lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
@@ -13,7 +12,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
+      url: `${SITE_URL}/de`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 1,
+    },
+    {
       url: `${SITE_URL}/impressum`,
+      lastModified,
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+    {
+      url: `${SITE_URL}/de/impressum`,
       lastModified,
       changeFrequency: "yearly",
       priority: 0.3,

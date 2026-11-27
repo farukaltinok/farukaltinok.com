@@ -62,6 +62,20 @@
   
   a { color: inherit; text-decoration: none; }
   a:hover { opacity: 0.95; }
+
+  /* In the HTML and read by screen readers, but not painted. */
+  .srOnly {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
+    user-select: none;
+  }
   
   /* =========================
      LAYOUT WRAPPERS
@@ -215,17 +229,26 @@
      LANGUAGE TOGGLE (flags)
      ========================= */
   
-  .langToggle {
+  /* The toggle is a link inside .navLinks; the doubled selector keeps the
+     nav link styles (10px text, braces on hover) off the flag. */
+  .langToggle,
+  .navLinks a.langToggle {
     background: none;
     border: none;
     padding: 0;
     cursor: pointer;
     font-size: 14px;
     line-height: 1;
+    letter-spacing: normal;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     transition: opacity 0.2s ease;
+  }
+
+  .navLinks a.langToggle::before,
+  .navLinks a.langToggle::after {
+    content: none;
   }
   
   .langToggle:hover {

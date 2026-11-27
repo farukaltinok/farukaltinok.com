@@ -1,8 +1,8 @@
 "use client";
 
-import { useLang } from "../components/LanguageContext";
+import { useLang } from "./LanguageContext";
 
-export default function ImpressumPage() {
+export default function ImpressumView() {
   const { t } = useLang();
 
   return (

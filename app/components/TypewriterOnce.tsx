@@ -59,14 +59,19 @@ export default function TypewriterOnce({
     return () => clearTimeout(timer);
   }, [displayed, text, speed, done, storageKey]);
 
+  // Typing finished: only the plain text is left.
+  if (done) return <span className={className}>{text}</span>;
+
   return (
     <span className={className}>
-      {displayed}
-      {!done && (
-        <span className="caret" aria-hidden="true">
-          |
-        </span>
-      )}
+      {/* While typing, the full text is still in the HTML from the first byte,
+          for search engines and screen readers. The typed copy is only the
+          visual effect. */}
+      <span className="srOnly">{text}</span>
+      <span aria-hidden="true">
+        {displayed}
+        <span className="caret">|</span>
+      </span>
     </span>
   );
 }
